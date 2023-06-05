@@ -1,5 +1,15 @@
 # 游戏剧情
 
+## 演出稿
+
+- [1-1](./%E6%BC%94%E5%87%BA%E7%A8%BF/%E5%8F%A4%E4%BB%A3%E6%95%85%E4%BA%8B/readme.md)
+- [1-2](./%E6%BC%94%E5%87%BA%E7%A8%BF/%E7%94%A8%20ai%20%E8%AE%BE%E5%A4%87%E7%9A%84%E9%AB%98%E7%A7%91%E6%8A%80%E8%A7%A3%E5%89%96/readme.md)
+- [1-3](./%E6%BC%94%E5%87%BA%E7%A8%BF/%E4%B8%8B%E7%8F%AD%E5%9B%9E%E5%AE%B6/readme.md)
+- [1-4](./%E6%BC%94%E5%87%BA%E7%A8%BF/ai%20%E8%AE%BE%E5%A4%87%E7%85%A7%E5%B0%84%E5%90%8E%E7%9A%84%E6%A2%A6%E5%A2%83/readme.md)
+- [1-5](./%E6%BC%94%E5%87%BA%E7%A8%BF/%E7%8C%9D%E6%AD%BB%E5%90%8E%E7%9A%84%E5%99%A9%E6%A2%A6/readme.md)
+- [1-6](./%E6%BC%94%E5%87%BA%E7%A8%BF/%E7%A6%BB%E5%BC%80%E5%AE%B6%E4%B8%8A%E7%8F%AD/readme.md)
+- [1-7](./%E6%BC%94%E5%87%BA%E7%A8%BF/%E8%A3%81%E5%91%98%E4%B8%8E%E7%99%AB%E7%8B%82%E7%9A%84%E6%8A%A5%E5%91%8A/readme.md)
+
 ## 世界观
 
 一个外星人误入的世界，主角要在梦境与现实中寻找真相。

@@ -271,7 +271,7 @@
 
 
 
-:: 介绍背景1 {"position":"1300,650","size":"100,100"}
+:: 介绍背景1 {"position":"1300,600","size":"100,100"}
 解剖室的背景，用布盖着尸体。
 一张死因分析器的图直接放在屏幕中间，上面有蓝色的投影
 投影看不清楚的文字，这个时候死因分析器看起来是科技产物。
@@ -285,7 +285,7 @@
 </div>
 
 
-:: 介绍背景2 {"position":"1400,650","size":"100,100"}
+:: 介绍背景2 {"position":"1400,600","size":"100,100"}
 解剖室的背景，用布盖着尸体。
 一张真央的皱眉的立绘。
 
@@ -432,6 +432,99 @@
 
 
 
+:: 健司询问 {"position":"1800,600","size":"100,100"}
+素材：
+
+解剖室的背景，用布盖着尸体。
+一张真央正常的穿着法医衣服的立绘。
+一张健司正常的立绘。
+
+演出
+点击我会尽力的等于没点
+<div class="dialog">
+
+健司走进房间，看着尸体一旁一旁的真央说：“我知道你在处理尸检报告的事情上可能遇到了些问题。我明白这对你来说是个挑战，但我们需要尽快得出报告。你能告诉我目前的进展吗？”
+
+
+(link:"我会尽力的")[
+    [[...|健司询问1]]
+
+]
+</div>
+
+
+:: 健司询问1 {"position":"1900,600","size":"100,100"}
+
+
+素材：
+
+解剖室的背景，用布盖着尸体。
+一张真央迷惑的穿着法医衣服的立绘。
+一张健司正常的立绘。
+
+演出：
+
+<div class="dialog">
+
+真央没有回答，她仍然盯着手中的死因分析器，仿佛没有听到健司的话。
+
+真央：（每次他问我进展如何，我都感到无地自容。我知道他们只是关心案件的进展，但我无法给出满意的答复，这让我很沮丧。）
+
+[[下一页|健司询问2]]
+</div>
+
+
+:: 健司询问2 {"position":"2000,600","size":"100,100"}
+
+
+素材：
+
+解剖室的背景，用布盖着尸体。
+一张真央迷惑的穿着法医衣服的立绘。
+一张健司正常的立绘。
+
+<div class="dialog">
+
+
+健司：“我不想再听到解释或是一些无法实现的承诺。我们需要报告，我们需要结果。你觉得你还能完成这项工作吗？”
+
+
+(link:"我会尽力的")[
+    [[...|健司询问3]]
+]
+
+</div>
+
+
+:: 健司询问3 {"position":"2100,600","size":"100,100"}
+
+
+素材：
+
+解剖室的背景，用布盖着尸体。
+一张真央迷惑的穿着法医衣服的立绘。
+一张健司失望叹气的立绘。
+
+演出：
+
+健司立绘向右移出场景。
+
+声音：
+男人脚步声
+
+<div class="dialog">
+
+健司：“哎”
+
+
+
+(link:"我会尽力的")[
+    [[...|真央的嫌疑人刻画]]
+]
+
+</div>
+
+
 :: 关闭闹钟 {"position":"1300,2100","size":"100,100"}
 这个时候手机传来烦人的闹钟声音，
 
@@ -536,7 +629,7 @@ $(document).ready(function () {
 [[难以相信这个真相，周围的一切开始变形，还听到了谜一样的低语声。]]
 
 
-:: 动机 {"position":"1450,1125","size":"100,100"}
+:: 动机 {"position":"2500,700","size":"100,100"}
 (if:$selectedItem is "白色郁金香")[
 	白色郁金香纹在前女友名字上，意味着对前女友的深刻告别，
     如果前女友就是情人的话，看到这个一定会生气，最终燃起了杀心。
@@ -547,7 +640,7 @@ $(document).ready(function () {
     
 ](else:)[
 	不对啊，$selectedItem 不像是与这个动机有关。
-    [[再想想|真央的嫌疑人刻画]]
+    [[再想想|看向尸检报告]]
 ]
 
 
@@ -810,6 +903,38 @@ $(document).ready(function() {
 
 
 
+:: 尸检报告1 {"position":"2725,700","size":"100,100"}
+(if:$zhengju is '家附近的宾馆')[
+<div class="scrolling-buttons">
+    <span class="passage-link">
+    	死亡地点在(color:yellow)[
+        	[[家的附近|尸检报告1]]
+       	]
+		出差地点到死者的家的直线距离不到2公里，为什么要开房而不是回家呢？
+	</span>
+    <span class="passage-link">
+		这说明死者的婚姻可能出问题了。
+	</span>    
+    <span class="passage-link">
+    	枕头是作案的凶器，这是一个重要线索。因为没有挣扎的痕迹，可以推断作案人员可能是死者的熟人。
+	</span>  
+    <span class="passage-link">
+    	很可能这个凶手就是死者出轨的对象。
+	</span>  
+	
+</div>
+(live:)[
+	
+]
+]
+(else:)[
+	想不到(display:$zhengju)有什么可疑的地方
+    [[再想想|看向尸检报告]]
+    
+]
+
+
+
 :: 山洞门口 {"position":"2000,200","size":"100,100"}
 <img src="./剧情参考图/古代故事/远远看到山洞门口.png" style="width: 100%; height: auto;">
 
@@ -949,6 +1074,10 @@ $(document).ready(function() {
 	不对啊，$selectedItem 怎么会是我的方法呢
 	[[再想想|怎么一个人解剖的？]]
 ]
+
+
+:: 情报收集 {"position":"500,1600","size":"100,100"}
+
 
 
 :: 惨死洞中 {"position":"2500,400","size":"100,100"}
@@ -1106,6 +1235,20 @@ $(document).ready(function() {
 [[健司又来看望我了]]
 
 
+:: 推理 {"position":"500,1500","size":"100,100"}
+
+触发条件：当接触到关键剧情导致理智大幅下降的时候将会触发理智考验
+
+玩法：在大量涌入的负面情感和词语中，要按顺序拼写出能够打开局面的词语
+
+
+成功后：改善之前的性格
+
+失败后：游戏失败
+
+
+
+
 :: 摘花 {"position":"2225,200","size":"100,100"}
 <img src="./剧情参考图/古代故事/摘花后的藤蔓.png" style="width: 100%; height: auto;">
 
@@ -1146,7 +1289,14 @@ $(document).ready(function() {
 <img src="./剧情参考图/古代故事/女主恢复了力气.png" style="width: 100%; height: auto;">
 ]
 
-背景加立绘
+
+素材
+山洞背景
+女子无力的立绘。
+女子恢复精力的立绘。
+
+音效
+碰杯的声音。
 
 <div class="dialog">
 
@@ -1163,7 +1313,7 @@ $(document).ready(function() {
 		他用瓢装了泉水水给女子，
 
 		她握住瓢的边缘，将清冽的泉水小口小口地送入口中，那份甘甜仿佛直达心扉。泉水带走了她的口渴，留下的是从内心深处涌出的幸福感。
-
+		发出了红酒杯碰撞的声音。
 		真央说：“他当晚上喝酒了。”
 	]
 	喝过水后，她看起来嘴唇没那么干了。
@@ -1224,6 +1374,71 @@ $(document).ready(function() {
 [[物品设定]]
 
 [[背景设定]]
+
+[[玩法设定]]
+
+
+:: 死亡表格 {"position":"1700,400","size":"100,100"}
+一张尸检报告表格 ui 图，
+<table>
+  <tr>
+    <td>尸检报告编号</td>
+    <td>RP5Z7D9E</td>
+  </tr>
+  <tr>
+    <td>死者姓名</td>
+    <td>张某</td>
+  </tr>
+  <tr>
+    <td>性别</td>
+    <td>男</td>
+  </tr>
+  <tr>
+    <td>年龄</td>
+    <td>37</td>
+  </tr>
+  <tr>
+    <td>婚姻状况</td>
+    <td>已婚</td>
+  </tr>
+  <tr>
+    <td>出生日期</td>
+    <td>2186-09-15</td>
+  </tr>
+  <tr>
+    <td>死亡日期与时间</td>
+    <td>2223-03-26</td>
+  </tr>
+  <tr>
+    <td>死亡地点</td>
+    <td>家附近的宾馆</td>
+  </tr>
+  <tr>
+    <td>死因</td>
+    <td>窒息</td>
+  </tr>
+  <tr>
+    <td >尸体特征描述</td>
+    <td>死者的面部呈现明显的青紫色，尤其是嘴唇、脸颊和眼周围区域，可能由于衣物等柔软的物品压迫所致。</td>
+  </tr>
+  <tr>
+    <td>毒物分析</td>
+    <td>酒精含量23mg/dL</td>
+  </tr>
+  
+  <tr>
+    <td>其他重要发现</td>
+(if:$flower is not false)[
+    <td>最近纹的白色郁金香</td>
+]
+    <td>身上女人的纹身</td>
+  </tr>
+  <tr>
+    <td>尸检人员签名与日期</td>
+    <td>真央 2223-04-01</td>
+  </tr>
+</table>
+
 
 
 :: 死因分析器 {"position":"400,800","size":"100,100"}
@@ -1473,6 +1688,30 @@ $(document).ready(function() {
 [[幻梦境治疗仓]]
 
 
+:: 玩法设定 {"position":"800,1400","size":"100,100"}
+理智：当理智程度越高的时候，越不容易精神崩溃，dan
+
+[[理智考验]]
+
+[[推理]]
+
+[[情报收集]]
+
+
+:: 理智考验 {"position":"500,1400","size":"100,100"}
+
+触发条件：当接触到关键剧情导致理智大幅下降的时候将会触发理智考验
+
+玩法：在大量涌入的负面情感和词语中，要找到词语并且正确地顺序
+
+
+成功后：改善之前的性格
+
+失败后：游戏失败
+
+
+
+
 :: 用刀砍藤蔓 {"position":"2350,200","size":"100,100"}
 
 
@@ -1685,6 +1924,75 @@ $(document).ready(function() {
 
 
 
+:: 看向尸检报告 {"position":"2400,600","size":"100,100"}
+
+
+素材：
+
+纯黑色的背景
+
+(display: "死亡表格")
+
+
+演出：
+类似言弹一样
+
+<div class="dialog">
+
+点击切换你的证据:
+(cycling-link: bind $selectedItem, "喝酒", "白色郁金香", "抽烟")
+
+(link:"看向尸检报告")[
+	<script>
+	console.log(123)
+    debugger;
+  	document.querySelectorAll('.scrolling-buttons').forEach(item=>item.hidden = false)
+  </script>
+]
+
+</div>
+
+<div class="scrolling-buttons">
+    <span class="passage-link">
+		看看死者的资料有什么可以的地方吧
+	</span>
+    <span class="passage-link">
+		死者名字叫张某。
+	</span>
+    <span class="passage-link">
+		今年 37 岁。
+        (color:yellow)[
+        	(link:"尸检报告1")[
+            	(set:$zhengju to '已婚')
+            ]
+        	[[已婚。|尸检报告1]]
+       	]
+        
+	</span>
+    <span class="passage-link">
+
+		
+	</span>
+    <span class="passage-link">
+    	死亡地点在(color:yellow)[
+        	[[家的附近|尸检报告1]]
+       	]
+		出差地点到死者的家的直线距离不到2公里，为什么要开房而不是回家呢？
+	</span>
+    <span class="passage-link">
+		这说明死者的婚姻可能出问题了。
+	</span>    
+    <span class="passage-link">
+    	枕头是作案的凶器，这是一个重要线索。因为没有挣扎的痕迹，可以推断作案人员可能是死者的熟人。
+	</span>  
+    <span class="passage-link">
+    	很可能这个凶手就是死者出轨的对象。
+	</span>  
+
+</div>
+
+
+
 :: 看向果篮 {"position":"1500,2200","size":"100,100"}
 坐起来看向旁边的果篮，里面的水果有几个像是被什么东西踩坏了，
 
@@ -1771,72 +2079,53 @@ $(document).ready(function() {
 
 
 
-:: 真央的嫌疑人刻画 {"position":"1800,650","size":"100,100"}
-健司走进房间，手上拿着一份文件，看着坐在一旁的真央说：“真央，你的嫌疑人刻画完成了吗？”
-
-真央没有回答，她仍然盯着手中的死因分析器，仿佛没有听到健司的话。她似乎陷入了沉思，低声自言自语
+:: 真央的嫌疑人刻画 {"position":"2200,600","size":"100,100"}
 
 
-点击切换你的证据:
-(cycling-link: bind $selectedItem, "喝酒", "白色郁金香", "抽烟")
+素材：
 
-<style>
+解剖室的背景，用布盖着尸体。
+一张真央的穿着法医衣服的立绘，表情是委屈想哭。
 
-.scrolling-buttons {
-    display: flex;
-    justify-content: flex-end;
-    white-space: nowrap;
-    animation: scroll 20s linear infinite;  /* 调整持续时间和滚动速度 */
+演出：
+除了真央以外的东西都变暗
 
-}
+<div class="dialog">
 
-.scrolling-buttons { 
-	&.slow {
-    	animation: scroll 30s linear infinite;  /* 调整持续时间和滚动速度 */
+真央：“我会尽力的......”
 
-	}
-}
+经过了多次内心的挣扎，真央终于脱口而出，可是这时候健司已经走远了。
 
-.passage-link {
-    margin-left: 100px; /* 调整按钮之间的间距 */
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-
-</style>
-<div class="scrolling-buttons">
-    <span class="passage-link">
-		出差地点到死者的家的直线距离不到5公里，为什么要开房而不是回家呢？
-	</span>
-    <span class="passage-link">
-		这说明死者的婚姻可能出问题了。
-	</span>    
-    <span class="passage-link">
-    	枕头是作案的凶器，这是一个重要线索。因为没有挣扎的痕迹，可以推断作案人员可能是死者的熟人。
-	</span>  
-    <span class="passage-link">
-    	很可能这个凶手就是死者出轨的对象。
-	</span>  
+[[下一页|真央的嫌疑人刻画1]]
 
 </div>
-<div class="scrolling-buttons slow">
-    <span class="passage-link">
-    	凶手的
-		<span style="color: yellow;">[[动机]]</span>
-		是什么呢？
-	</span>
+
+
+
+
+:: 真央的嫌疑人刻画1 {"position":"2300,600","size":"100,100"}
+
+
+素材：
+
+解剖室的背景，用布盖着尸体。
+纯黑色的背景
+(display: "死亡表格")
+
+演出：
+除了表格以外的东西变暗
+
+<div class="dialog">
+
+真央：“总而言之，看看死者的资料有什么可疑的地方吧，这次能否顺利将嫌疑人刻画出来呢....”
+
+[[下一步|看向尸检报告]]
 </div>
 
 
 
-:: 真央阅读死因 [起] {"position":"1200,650","size":"100,100"}
+
+:: 真央阅读死因 [起] {"position":"1200,600","size":"100,100"}
 解剖室的背景，用布盖着尸体。
 一张死因分析器的图直接放在屏幕中间，上面有蓝色的投影
 投影看不清楚的文字，这个时候死因分析器看起来是科技产物。
@@ -1848,7 +2137,7 @@ $(document).ready(function() {
 </div>
 
 
-
+32323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232323232jmknmmmmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnnnnnnnnnnnnnnnnnnnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmnmmmmm
 
 
 :: 离开浴室 {"position":"1125,1150","size":"100,100"}
@@ -2026,7 +2315,7 @@ $(document).ready(function() {
 
 
 
-:: 自我介绍 {"position":"1500,650","size":"100,100"}
+:: 自我介绍 {"position":"1500,600","size":"100,100"}
 纯黑色的背景
 一张真央正常的穿着法医衣服的立绘。
 翔夜的一张说话的立绘，此时翔夜正在介绍人物。
@@ -2040,7 +2329,7 @@ $(document).ready(function() {
 </div>
 
 
-:: 自我介绍1 {"position":"1600,650","size":"100,100"}
+:: 自我介绍1 {"position":"1600,600","size":"100,100"}
 纯黑色的背景
 一张真央正常的穿着法医衣服的立绘。
 翔夜的一张说话的立绘，此时翔夜正在介绍人物。
@@ -2054,7 +2343,7 @@ $(document).ready(function() {
 </div>
 
 
-:: 自我介绍2 {"position":"1700,650","size":"100,100"}
+:: 自我介绍2 {"position":"1700,600","size":"100,100"}
 素材：
 
 纯黑色的背景
@@ -2063,9 +2352,9 @@ $(document).ready(function() {
 
 <div class="dialog">
 
-？？？：她的想象力特别丰富。
+？？？：那就是她的好奇心和想象力吧。
 
-[[真央的嫌疑人刻画]]
+[[下一页|健司询问]]
 </div>
 
 
@@ -2325,4 +2614,37 @@ $(document).ready(function() {
     height: 100%;
     object-fit: cover;
   	
+}
+
+[hidden=true] {
+	display: none !important;
+
+}
+
+.scrolling-buttons {
+    display: flex;
+    justify-content: flex-end;
+    white-space: nowrap;
+    animation: scroll 20s linear infinite;  /* 调整持续时间和滚动速度 */
+
+}
+
+.scrolling-buttons { 
+	&.slow {
+    	animation: scroll 30s linear infinite;  /* 调整持续时间和滚动速度 */
+
+	}
+}
+
+.passage-link {
+    margin-left: 10px; /* 调整按钮之间的间距 */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }

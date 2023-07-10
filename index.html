@@ -119,49 +119,7 @@ scrollContainer();
 
 [[背景设定]]
 
-[[玩法设定]]</tw-passagedata><tw-passagedata pid="2" name="无力的女子" tags="" position="1450,400" size="100,100">(if:$water is not true)[
-&lt;img src=&quot;./剧情参考图/古代故事/女主无力坐在山洞门口.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-]
-(else:)[
-&lt;img src=&quot;./剧情参考图/古代故事/女主恢复了力气.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-]
-
-
-素材
-山洞背景
-女子无力的立绘。
-女子恢复精力的立绘。
-
-音效
-碰杯的声音。
-
-&lt;div class=&quot;dialog&quot;&gt;
-
-[[看向水]]
-[[看向火堆]]
-
-(if:$water is not true)[
-	看着她干裂的嘴唇和焦急的眼神，就知道她需要的不只是一口水，而是一个瀑布。她的喉咙在尖叫，她的舌头在哀求。她显然是极度口渴。
-]
-(else:)[
-	(if:$said is not true)[
-    
-    	(set:$said to true)
-		他用瓢装了泉水水给女子，
-
-		她握住瓢的边缘，将清冽的泉水小口小口地送入口中，那份甘甜仿佛直达心扉。泉水带走了她的口渴，留下的是从内心深处涌出的幸福感。
-		发出了红酒杯碰撞的声音。
-		真央说：“他当天晚上喝酒了。”
-	]
-	喝过水后，她看起来嘴唇没那么干了。
-    [[和女子交流]]
-]
-
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="3" name="真央的嫌疑人刻画" tags="" position="2200,1000" size="100,100">
+[[玩法设定]]</tw-passagedata><tw-passagedata pid="2" name="真央的嫌疑人刻画" tags="" position="2200,1000" size="100,100">
 
 素材：
 
@@ -185,7 +143,7 @@ scrollContainer();
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="4" name="外卖到了" tags="" position="3200,1000" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="3" name="外卖到了" tags="" position="3200,1000" size="100,100">素材：
 
 一个可以复用的手机 ui 图出现在屏幕中央
 上面用 ui 写着
@@ -210,7 +168,7 @@ scrollContainer();
     [[下一页|离开解剖室]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="5" name="回家洗澡" tags="" position="3500,1525" size="100,100">真央一边洗头，一边沉浸在沐浴的温暖中。她希望通过洗头的过程，将一天的疲惫和压力洗去。然而，无论她用多少洗发水和热水冲刷，她内心的疲倦却似乎无法彻底散去。
+</tw-passagedata><tw-passagedata pid="4" name="回家洗澡" tags="" position="3500,1525" size="100,100">真央一边洗头，一边沉浸在沐浴的温暖中。她希望通过洗头的过程，将一天的疲惫和压力洗去。然而，无论她用多少洗发水和热水冲刷，她内心的疲倦却似乎无法彻底散去。
 
 她感到身心俱疲，仿佛所有的力气都被抽干了。她静静地站在浴室里，任由水流不断地冲洗着身体，希望这样能带走一些疲惫和不安。
 
@@ -244,7 +202,7 @@ scrollContainer();
     亚弗戈蒙的影响下把巴酱飞船撞了她家。
 &lt;/span&gt;
 
-[[离开浴室]]</tw-passagedata><tw-passagedata pid="6" name="离开浴室" tags="" position="3800,1350" size="100,100">洗完澡的真央，围着浴巾准备从包里拿出手机。但是，此时她才发现不小心把死因分析器带回去了。
+[[离开浴室]]</tw-passagedata><tw-passagedata pid="5" name="离开浴室" tags="" position="3800,1350" size="100,100">洗完澡的真央，围着浴巾准备从包里拿出手机。但是，此时她才发现不小心把死因分析器带回去了。
 
 蹲下来看着手中熟悉的仪器，
 
@@ -277,7 +235,7 @@ scrollContainer();
 [[死因分析器顶部发出了红色的光。|亚弗戈蒙的降临]]
 
 
-</tw-passagedata><tw-passagedata pid="7" name="亚弗戈蒙的降临" tags="" position="2325,1575" size="100,100">
+</tw-passagedata><tw-passagedata pid="6" name="亚弗戈蒙的降临" tags="" position="2325,1575" size="100,100">
 
 一股神秘的能量从虚空中涌现，凝聚成一个庞大而可怖的存在——[亚弗戈蒙]。它的身躯如同一团漆黑的阴影，散发出诡异而邪恶的气息。[亚弗戈蒙]的形态变化无常，有时它呈现出扭曲的触手，有时又显现出似乎不可能存在的几何形状。它的存在超越了人类的理解，仿佛来自于无尽深渊的黑暗。
 
@@ -316,7 +274,7 @@ scrollContainer();
 	亚弗戈蒙一开始盯着巴萨尔在看，后来看向了玩家.
 &lt;/span&gt;
 
-[[然后画面就扭曲消失|扫描的结果]]</tw-passagedata><tw-passagedata pid="8" name="扫描的结果" tags="" position="2425,1575" size="100,100">
+[[然后画面就扭曲消失|扫描的结果]]</tw-passagedata><tw-passagedata pid="7" name="扫描的结果" tags="" position="2425,1575" size="100,100">
 死因分析器上写着 “未出生”
 
 “我的死因是因为我从来没有出生吗？那我岂不是.....从未存在过？”
@@ -335,7 +293,7 @@ scrollContainer();
 
 &quot;痛苦和失去意识的边缘，我感到冷汗从额头如雨般涌出，滴落在床上。冷汗像冷水一样刺激着我的皮肤，仿佛我掉入了一池寒冷的水中。这种突如其来的寒冷感加剧了我身体的不适，使我更加迷离和虚弱。
 
-[[清晨，一束阳光残忍地照在我疲倦充满血丝的眼睛上。]]</tw-passagedata><tw-passagedata pid="9" name="清晨，一束阳光残忍地照在我疲倦充满血丝的眼睛上。" tags="转" position="1200,1500" size="100,100">离开床铺后，我随意地将被子往旁边一放，拿起桌子上整齐堆放的塑料袋，里面装着其他的易拉罐和面包。
+[[清晨，一束阳光残忍地照在我疲倦充满血丝的眼睛上。]]</tw-passagedata><tw-passagedata pid="8" name="清晨，一束阳光残忍地照在我疲倦充满血丝的眼睛上。" tags="转" position="1200,1500" size="100,100">离开床铺后，我随意地将被子往旁边一放，拿起桌子上整齐堆放的塑料袋，里面装着其他的易拉罐和面包。
 
 吃完早餐后，她把垃圾放到了地上的箱子里面，这里堆放了装不同类型垃圾的箱子，
 
@@ -445,7 +403,7 @@ scrollContainer();
 
 [[再次使用死因分析器]]
 
-</tw-passagedata><tw-passagedata pid="10" name="再次使用死因分析器" tags="" position="1200,1600" size="100,100">看到挂在门上挂勾死因分析器，
+</tw-passagedata><tw-passagedata pid="9" name="再次使用死因分析器" tags="" position="1200,1600" size="100,100">看到挂在门上挂勾死因分析器，
 
 又回想起昨天晚上的事情，真是头皮发麻。
 
@@ -512,7 +470,7 @@ scrollContainer();
 
 而随着这个猜想的证实，真央抱着自己的头，一整头痛来袭，
 
-[[难以相信这个真相，周围的一切开始变形，还听到了谜一样的低语声。]]</tw-passagedata><tw-passagedata pid="11" name="难以相信这个真相，周围的一切开始变形，还听到了谜一样的低语声。" tags="" position="1200,1700" size="100,100">我双手交叉抱着肩抖动。
+[[难以相信这个真相，周围的一切开始变形，还听到了谜一样的低语声。]]</tw-passagedata><tw-passagedata pid="10" name="难以相信这个真相，周围的一切开始变形，还听到了谜一样的低语声。" tags="" position="1200,1700" size="100,100">我双手交叉抱着肩抖动。
 
 “奇怪....怎么会这么冷，好冷啊”
 
@@ -568,7 +526,7 @@ scrollContainer();
 
 还有迷迷糊糊看到救护车，看到了穿医疗服的人。
 
-[[等我再次醒来的时候，发现自己已经穿上了病号服。]]</tw-passagedata><tw-passagedata pid="12" name="等我再次醒来的时候，发现自己已经穿上了病号服。" tags="" position="1200,1800" size="100,100">![医院病床](./%E5%89%A7%E6%83%85%E5%8F%82%E8%80%83%E5%9B%BE/%E5%8C%BB%E9%99%A2%E7%9A%84%E7%97%85%E5%BA%8A.jpg)
+[[等我再次醒来的时候，发现自己已经穿上了病号服。]]</tw-passagedata><tw-passagedata pid="11" name="等我再次醒来的时候，发现自己已经穿上了病号服。" tags="" position="1200,1800" size="100,100">![医院病床](./%E5%89%A7%E6%83%85%E5%8F%82%E8%80%83%E5%9B%BE/%E5%8C%BB%E9%99%A2%E7%9A%84%E7%97%85%E5%BA%8A.jpg)
 
 手上插着吊针，吊瓶上有两瓶药水，其中一瓶已经用完了，可以看出我在这里呆了很久。
 
@@ -609,7 +567,7 @@ scrollContainer();
 
 我：“大家...谢谢了”
 
-[[随着一阵敲门声，护士推门进来]]</tw-passagedata><tw-passagedata pid="13" name="随着一阵敲门声，护士推门进来" tags="" position="1200,1900" size="100,100">护士：“真央对吧，你醒啦，感觉如何？”
+[[随着一阵敲门声，护士推门进来]]</tw-passagedata><tw-passagedata pid="12" name="随着一阵敲门声，护士推门进来" tags="" position="1200,1900" size="100,100">护士：“真央对吧，你醒啦，感觉如何？”
 
 我：“还有点头晕”
 
@@ -682,7 +640,7 @@ scrollContainer();
 
 
 
-[[一定还有什么事情瞒着我，我想知道真相。]]</tw-passagedata><tw-passagedata pid="14" name="一定还有什么事情瞒着我，我想知道真相。" tags="" position="1200,2000" size="100,100">正当我这么想着，时间来到了晚上九点，一位护士进来说：“到熄灯时间了，不要玩手机了，早点睡觉。”
+[[一定还有什么事情瞒着我，我想知道真相。]]</tw-passagedata><tw-passagedata pid="13" name="一定还有什么事情瞒着我，我想知道真相。" tags="" position="1200,2000" size="100,100">正当我这么想着，时间来到了晚上九点，一位护士进来说：“到熄灯时间了，不要玩手机了，早点睡觉。”
 
 护士在门口观察了一下周围的病人后就把灯关上了。
 
@@ -831,21 +789,21 @@ scrollContainer();
 [[把灯调暗]]
 
 [[把灯调亮]]
-</tw-passagedata><tw-passagedata pid="15" name="把灯调暗" tags="" position="1500,2250" size="100,100">只见床隔帘越来越亮，伴随着阴暗也越来越大，
+</tw-passagedata><tw-passagedata pid="14" name="把灯调暗" tags="" position="1500,2250" size="100,100">只见床隔帘越来越亮，伴随着阴暗也越来越大，
 蠕动的阴影越来越多，
 我害怕地躲进被子里面。
 可一掀开被子，我被不可名状的扭曲生物所覆盖。
 伴随着咀嚼声和骨肉撕裂的声音的越来越响，意识也逐渐模糊。
 
 最后我失去了意识。
-</tw-passagedata><tw-passagedata pid="16" name="把灯调亮" tags="" position="1300,2250" size="100,100">随着我把床头灯一拧，床帘处的车灯彻底看不到了，
+</tw-passagedata><tw-passagedata pid="15" name="把灯调亮" tags="" position="1300,2250" size="100,100">随着我把床头灯一拧，床帘处的车灯彻底看不到了，
 
 我松了一口气，终于可以休息了。
 
 时间飞快流逝，床隔帘在自然光的照射下亮了起来。
 
 [[起床了]]
-</tw-passagedata><tw-passagedata pid="17" name="看向果篮" tags="" position="1500,2550" size="100,100">坐起来看向旁边的果篮，里面的水果有几个像是被什么东西踩坏了，
+</tw-passagedata><tw-passagedata pid="16" name="看向果篮" tags="" position="1500,2550" size="100,100">坐起来看向旁边的果篮，里面的水果有几个像是被什么东西踩坏了，
 
 (set:$fruit to true)
 
@@ -857,7 +815,7 @@ scrollContainer();
 (else:)[
 	[[观察病床周围]]
 ]
-</tw-passagedata><tw-passagedata pid="18" name="起床了" tags="" position="1300,2350" size="100,100">护士开灯：&quot;早上六点了，开灯了。&quot;
+</tw-passagedata><tw-passagedata pid="17" name="起床了" tags="" position="1300,2350" size="100,100">护士开灯：&quot;早上六点了，开灯了。&quot;
 
 我看着天花板。
 
@@ -879,7 +837,7 @@ scrollContainer();
 
 
 
-</tw-passagedata><tw-passagedata pid="19" name="抓头发" tags="" position="1700,2550" size="100,100">我抓了一下头发，一抓就掉了许多。
+</tw-passagedata><tw-passagedata pid="18" name="抓头发" tags="" position="1700,2550" size="100,100">我抓了一下头发，一抓就掉了许多。
 
 这是昨晚被猫拉扯的地方。
 
@@ -895,7 +853,7 @@ scrollContainer();
 (else:)[
 	[[观察病床周围]]
 ]
-</tw-passagedata><tw-passagedata pid="20" name="关闭闹钟" tags="" position="1300,2450" size="100,100">这个时候手机传来烦人的闹钟声音，
+</tw-passagedata><tw-passagedata pid="19" name="关闭闹钟" tags="" position="1300,2450" size="100,100">这个时候手机传来烦人的闹钟声音，
 
 我看到了可怕的一幕，我从6点到七点开始每隔五分钟就有一个闹钟。
 
@@ -924,7 +882,7 @@ $(document).ready(function () {
 (set:$hair to false))
 (set:$fruit to false))
 
-</tw-passagedata><tw-passagedata pid="21" name="观察病床周围" tags="" position="1300,2550" size="100,100">我：“（依旧是没有做梦的一个晚上，不过这次，身上的疲倦感减轻了不少。）”
+</tw-passagedata><tw-passagedata pid="20" name="观察病床周围" tags="" position="1300,2550" size="100,100">我：“（依旧是没有做梦的一个晚上，不过这次，身上的疲倦感减轻了不少。）”
 
 我：“（只是..）”
 
@@ -938,7 +896,7 @@ $(document).ready(function () {
 	[[看向果篮]]
 ]
 
-</tw-passagedata><tw-passagedata pid="22" name="护士的声音" tags="" position="1300,2650" size="100,100">护士：“八号床的姑娘，你这么早就醒了啊，今天感觉怎么样？”
+</tw-passagedata><tw-passagedata pid="21" name="护士的声音" tags="" position="1300,2650" size="100,100">护士：“八号床的姑娘，你这么早就醒了啊，今天感觉怎么样？”
 
 我：“有点饿。”
 
@@ -988,7 +946,7 @@ $(document).ready(function () {
 
 
 
-[[健司又来看望我了]]</tw-passagedata><tw-passagedata pid="23" name="健司又来看望我了" tags="" position="1300,2750" size="100,100">
+[[健司又来看望我了]]</tw-passagedata><tw-passagedata pid="22" name="健司又来看望我了" tags="" position="1300,2750" size="100,100">
 健司的声音：“请问一下真央在几号床，我们是她的同事。”
 
 护士：“在那边八号床，她已经醒了。”
@@ -1066,7 +1024,7 @@ $(document).ready(function () {
 
 
 
-</tw-passagedata><tw-passagedata pid="24" name="静香开始和我述说当时的事情" tags="" position="1300,2850" size="100,100">我拿着摄像机自言自语，健司在切割器官，静香在把标本装入瓶内。
+</tw-passagedata><tw-passagedata pid="23" name="静香开始和我述说当时的事情" tags="" position="1300,2850" size="100,100">我拿着摄像机自言自语，健司在切割器官，静香在把标本装入瓶内。
 
 在更衣室，静香遇到了我，
 
@@ -1078,7 +1036,7 @@ $(document).ready(function () {
 
 [[可是......|怎么一个人解剖的？]]
 
-</tw-passagedata><tw-passagedata pid="25" name="怎么一个人解剖的？" tags="" position="1300,2950" size="100,100">我抱着脑袋，额头发紫，
+</tw-passagedata><tw-passagedata pid="24" name="怎么一个人解剖的？" tags="" position="1300,2950" size="100,100">我抱着脑袋，额头发紫，
 
 这是什么回事，头一涨一涨的。
 
@@ -1138,14 +1096,14 @@ $(document).ready(function () {
     &lt;span class=&quot;passage-link&quot;&gt;
   		具体是&lt;span style=&quot;color: yellow;&quot;&gt;[[怎么操作的？]]&lt;/span&gt;？
 	&lt;/span&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="怎么操作的？" tags="" position="1300,3050" size="100,100">(if:$selectedItem is &quot;死因分析器&quot;)[
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="怎么操作的？" tags="" position="1300,3050" size="100,100">(if:$selectedItem is &quot;死因分析器&quot;)[
 	真央：“&lt;span style=&quot;color:yellow&quot;&gt;[[我用的是死因分析器]]&lt;/span&gt;”
 
 ]
 (else:)[
 	不对啊，$selectedItem 怎么会是我的方法呢
 	[[再想想|怎么一个人解剖的？]]
-]</tw-passagedata><tw-passagedata pid="27" name="我用的是死因分析器" tags="" position="1300,3150" size="100,100">当真央说出这个大家听都没有听过单词时，
+]</tw-passagedata><tw-passagedata pid="26" name="我用的是死因分析器" tags="" position="1300,3150" size="100,100">当真央说出这个大家听都没有听过单词时，
 
 大家先是愣了一下，
 
@@ -1185,13 +1143,13 @@ $(document).ready(function () {
 
 
 
-</tw-passagedata><tw-passagedata pid="28" name="那不是不是摄像机吗？" tags="" position="1000,3350" size="100,100">
+</tw-passagedata><tw-passagedata pid="27" name="那不是不是摄像机吗？" tags="" position="1000,3350" size="100,100">
 随着解脱的感觉，真央开始自嘲起来
 
 真央：“没想到啊，我当时居然把&lt;span style=&quot;red&quot;&gt;摄像机&lt;/span&gt;带到家里了”
 
 真央：“可是”
-</tw-passagedata><tw-passagedata pid="29" name="空间逐渐扭曲" tags="" position="1200,3350" size="100,100">&lt;style&gt;
+</tw-passagedata><tw-passagedata pid="28" name="空间逐渐扭曲" tags="" position="1200,3350" size="100,100">&lt;style&gt;
     .rain {
         position: absolute;
         animation: rain 2s linear infinite;
@@ -1251,13 +1209,13 @@ $(document).ready(function () {
         return adjectives[Math.floor(Math.random() * adjectives.length)];
     }
 &lt;/script&gt;
-</tw-passagedata><tw-passagedata pid="30" name="故事开始" tags="起" position="1200,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="29" name="故事开始" tags="起" position="1200,200" size="100,100">素材
 
 1.长着松树的山
 2.长着蕨类植物的山
 3.前景的男子侧对着玩家站在山上，吃惊的表情，背筐上有少量植物，头上还有一个用来避雨的斗笠
 4.高斯模糊的山路背景
-
+5.直角三角形的漫画格形式出现家人的回忆，不用看清脸，可以看到老婆牵着小屁孩的模糊的样子出现在一侧即可，最后死的时候会复用一次。
 演出：
 1.黑色的背景，然后对话框出现。
 2.近距离看到男子站在山上长大嘴眺望。
@@ -1291,6 +1249,7 @@ $(document).ready(function () {
     （这对像我这样整天与药材为伴的采药人来说那里简直就是金山银矿）
     （大多数人只是听过或者远远地见过，从来没有人采集到那里的植物）
     （而我和那些叶公好龙的胆小鬼不一样，我要征服那座山脉，把那里的植物上交给朝廷）
+    &lt;!--出现了妻子牵着小屁孩的画面--&gt;
     （靠着政府的赏银，我和我的妻子这辈子就不用再愁吃穿了）
     
 	
@@ -1302,7 +1261,7 @@ $(document).ready(function () {
 
 
 
-</tw-passagedata><tw-passagedata pid="31" name="人物设定" tags="" position="600,200" size="100,100">[[古代采药人]]
+</tw-passagedata><tw-passagedata pid="30" name="人物设定" tags="" position="600,200" size="100,100">[[古代采药人]]
 
 [[古代女子]]
 
@@ -1320,7 +1279,7 @@ $(document).ready(function () {
 
 [[亚弗戈蒙]]
 
-</tw-passagedata><tw-passagedata pid="32" name="真央" tags="" position="400,400" size="100,100">名字：真央
+</tw-passagedata><tw-passagedata pid="31" name="真央" tags="" position="400,400" size="100,100">名字：真央
 年龄：24
 身高：170
 性别：女
@@ -1346,7 +1305,7 @@ $(document).ready(function () {
 [[真央法医服正常]]
 
 
-</tw-passagedata><tw-passagedata pid="33" name="健司" tags="" position="400,500" size="100,100">名字：健司
+</tw-passagedata><tw-passagedata pid="32" name="健司" tags="" position="400,500" size="100,100">名字：健司
 年龄：27
 身高：170
 性别：男
@@ -1361,14 +1320,14 @@ $(document).ready(function () {
 [[健司法医服正常]]
 
 
-</tw-passagedata><tw-passagedata pid="34" name="静香" tags="" position="400,600" size="100,100">静香
+</tw-passagedata><tw-passagedata pid="33" name="静香" tags="" position="400,600" size="100,100">静香
 年龄：22
 身高：170
 性别：女
 性格：阴角
 职业：法医，解剖助手
 外貌：白大褂,![小红脸](./参考图/%E5%A5%B3%E5%8A%A9%E6%89%8B.webp)
-</tw-passagedata><tw-passagedata pid="35" name="巴斯特" tags="" position="100,300" size="100,100">名字：巴斯特（Bastet）
+</tw-passagedata><tw-passagedata pid="34" name="巴斯特" tags="" position="100,300" size="100,100">名字：巴斯特（Bastet）
 种族：古神
 介绍：
 巴斯特（Bastet）是古埃及神话中的一位女神，她是猫、家庭和生育之神。巴斯特通常被描绘为一只具有猫头和人身的女神，有时她也被描绘为一只完全的猫。
@@ -1377,7 +1336,7 @@ $(document).ready(function () {
 
 在古埃及的宗教和文化中，巴斯特被广泛崇拜和尊敬。她常常作为一位受人们敬仰和祈祷的女神，被称为“善良之女神”和“战胜邪恶的女神”。人们会在家中或寺庙中设立巴斯特的神龛，供奉并祈求她的保佑。
 
-巴斯特在古埃及的文化中扮演着重要的角色，她象征着守护和温柔的力量，代表了猫的神秘和灵性。她的形象经常出现在艺术作品、雕塑和神庙中，为古埃及人民带来安慰、保护和祝福。</tw-passagedata><tw-passagedata pid="36" name="亚弗戈蒙" tags="" position="100,400" size="100,100">名字：亚弗戈蒙（Yog-Sothoth）
+巴斯特在古埃及的文化中扮演着重要的角色，她象征着守护和温柔的力量，代表了猫的神秘和灵性。她的形象经常出现在艺术作品、雕塑和神庙中，为古埃及人民带来安慰、保护和祝福。</tw-passagedata><tw-passagedata pid="35" name="亚弗戈蒙" tags="" position="100,400" size="100,100">名字：亚弗戈蒙（Yog-Sothoth）
 
 种族：亚弗戈蒙属于旧日支配者，是克苏鲁神话中的一类强大而古老的神祇。他们被认为是宇宙中的原始存在，拥有无尽的知识和力量。
 
@@ -1385,7 +1344,7 @@ $(document).ready(function () {
 
 详情：亚弗戈蒙被描绘为宇宙的门户，他拥有无限的知识和力量，并能够观察和影响多个现实和维度。他被认为是存在于宇宙中的一切知识和智慧的源头，但他的本质也是混沌和破坏的化身。
 
-亚弗戈蒙在克苏鲁神话中扮演着重要的角色，他是恐怖、神秘和超自然力量的象征。与他接触或受到他的影响往往会导致人类的疯狂、堕落和灭亡。他的存在与人类的理解和现实之间存在着不可逾越的鸿沟，令人无法探索和理解他的真正本质。</tw-passagedata><tw-passagedata pid="37" name="巴萨尔" tags="" position="100,500" size="100,100">名字：巴萨尔（Basaeru）
+亚弗戈蒙在克苏鲁神话中扮演着重要的角色，他是恐怖、神秘和超自然力量的象征。与他接触或受到他的影响往往会导致人类的疯狂、堕落和灭亡。他的存在与人类的理解和现实之间存在着不可逾越的鸿沟，令人无法探索和理解他的真正本质。</tw-passagedata><tw-passagedata pid="36" name="巴萨尔" tags="" position="100,500" size="100,100">名字：巴萨尔（Basaeru）
 
 种族：混血后代（古神巴斯特与人类的混血）
 
@@ -1397,20 +1356,20 @@ $(document).ready(function () {
 
 作为守护之神的传人，巴萨尔被赋予了保护和守护的使命。她拥有强大的意志力和勇气，始终坚守着她的责任，保护她所珍视的人和事物。她具备一种与生俱来的智慧和洞察力，能够作出明智的决策和行动，以维护正义和平衡。
 
-巴萨尔作为巴斯特的女儿，她身上流淌着强大的守护之力，使她成为一位勇敢、神秘而又富有魅力的角色。</tw-passagedata><tw-passagedata pid="38" name="古代女子" tags="" position="400,200" size="100,100">年龄：26
+巴萨尔作为巴斯特的女儿，她身上流淌着强大的守护之力，使她成为一位勇敢、神秘而又富有魅力的角色。</tw-passagedata><tw-passagedata pid="37" name="古代女子" tags="" position="400,200" size="100,100">年龄：26
 身高：165
 性别：女
 性格：内向，内心只对喜欢的人敞开，想很多东西，一句话就能让她内心有起伏，有小动作，小心思。
 背地里：人形妖怪
 
-</tw-passagedata><tw-passagedata pid="39" name="古代采药人" tags="" position="400,100" size="100,100">男子：普通古代人，背着箩筐，没有拿拐杖。
+</tw-passagedata><tw-passagedata pid="38" name="古代采药人" tags="" position="400,100" size="100,100">男子：普通古代人，背着箩筐，没有拿拐杖。
 
 年龄：30
 身高：170
 性别：男
 性格：正直不阿，老实人
 背地：虚伪，看待草药就像看到宝贝一样
-职业：采药师</tw-passagedata><tw-passagedata pid="40" name="死因分析器" tags="" position="400,800" size="100,100">名称：死因分析器
+职业：采药师</tw-passagedata><tw-passagedata pid="39" name="死因分析器" tags="" position="400,800" size="100,100">名称：死因分析器
 
 外观：像一把黑色的枪，两侧有像侧翼一样的散热部分，在顶部会出现立体的扫描结果。
 
@@ -1427,7 +1386,7 @@ $(document).ready(function () {
 
 当使用者认为这是科技产物的时候，扫描结果为蓝色，此时能够得到尸体的死亡原因，
 通常这个结果只是使用者自己通过想象力得出的。
-</tw-passagedata><tw-passagedata pid="41" name="翔夜" tags="" position="100,600" size="100,100">名字：翔夜
+</tw-passagedata><tw-passagedata pid="40" name="翔夜" tags="" position="100,600" size="100,100">名字：翔夜
 种族：猫
 外貌：
 外表看起来是只黑猫。是基于[[巴斯特]]和[[亚弗戈蒙]]的结合，其特点是黑暗而闪耀的外观，以及深邃而神秘的双眼，其中一只呈现[[巴斯特]]的金色，另一只呈现[[亚弗戈蒙]]的紫黑色。这些特征使成为一个令人印象深刻的吉祥物，代表着神秘、智慧和恐怖的力量。
@@ -1465,17 +1424,17 @@ $(document).ready(function () {
 [[翔夜正常]]
 [[翔夜介绍东西]]
 [[翔夜思考]]
-[[翔夜想到了]]</tw-passagedata><tw-passagedata pid="42" name="物品设定" tags="" position="800,800" size="100,100">[[死因分析器]]
+[[翔夜想到了]]</tw-passagedata><tw-passagedata pid="41" name="物品设定" tags="" position="800,800" size="100,100">[[死因分析器]]
 
-[[幻梦境治疗仓]]</tw-passagedata><tw-passagedata pid="43" name="幻梦境治疗仓" tags="" position="400,900" size="100,100">名称：死因分析器
+[[幻梦境治疗仓]]</tw-passagedata><tw-passagedata pid="42" name="幻梦境治疗仓" tags="" position="400,900" size="100,100">名称：死因分析器
 
 使用方法：把受伤、将死的生物放在其中。
 
 获取方式：无，目前只有在[[巴萨尔]]的飞船里面才有这个装置。
 
 效果：受益于[[巴萨尔]]的守护之力，这个治疗仓内的生物的身体会逐渐恢复，能够暂时逃避现实中的痛处，将精神送入[[幻梦境]]。
-</tw-passagedata><tw-passagedata pid="44" name="背景设定" tags="" position="800,1100" size="100,100">[[幻梦境]]
-</tw-passagedata><tw-passagedata pid="45" name="幻梦境" tags="" position="400,1100" size="100,100">幻梦境是一个神秘而迷人的地方，它存在于巴萨尔的飞船中的治疗仓内。这个特殊的空间被设计成一个幻梦世界，旨在治愈和缓解生物的痛苦和创伤。
+</tw-passagedata><tw-passagedata pid="43" name="背景设定" tags="" position="800,1100" size="100,100">[[幻梦境]]
+</tw-passagedata><tw-passagedata pid="44" name="幻梦境" tags="" position="400,1100" size="100,100">幻梦境是一个神秘而迷人的地方，它存在于巴萨尔的飞船中的治疗仓内。这个特殊的空间被设计成一个幻梦世界，旨在治愈和缓解生物的痛苦和创伤。
 
 在幻梦境中，生物的精神被送入一个与现实世界截然不同的境界。这个境界是由个体的思维和意识塑造的，每个人的幻梦境都是独一无二的。在这个幻梦世界中，一切都是可能的，无限的想象力和创造力可以实现。
 
@@ -1487,7 +1446,7 @@ $(document).ready(function () {
 
 总的来说，幻梦境是一个充满神秘和魔幻的空间，为生物提供治愈、探索和成长的机会。它是一个奇妙而又危险的地方，充满着无限的可能性和挑战。在这个幻梦世界中，人们可以体验到身心的平静和自由，同时也需要面对内心的恐惧和外部的困扰。
 
-在幻梦境中，每个人的世界观都不太一样，根据想象力的不同也可能是天差地别的世界，真央一开始的世界观是认为世界存在让人单独完成解剖的死因分析器，然而即使有这么方便的设备，内向没自信的真央面对同事的问话无法回答，觉得同事在欺负自己，同事因为真央的态度变得烦躁，逐渐地更像是单方面责备真央，生活在这样世界下，十分厌恶工作并且认为自己一个人十分空虚</tw-passagedata><tw-passagedata pid="46" name="男子看到女子" tags="" position="1400,200" size="100,100">素材
+在幻梦境中，每个人的世界观都不太一样，根据想象力的不同也可能是天差地别的世界，真央一开始的世界观是认为世界存在让人单独完成解剖的死因分析器，然而即使有这么方便的设备，内向没自信的真央面对同事的问话无法回答，觉得同事在欺负自己，同事因为真央的态度变得烦躁，逐渐地更像是单方面责备真央，生活在这样世界下，十分厌恶工作并且认为自己一个人十分空虚</tw-passagedata><tw-passagedata pid="45" name="男子看到女子" tags="" position="1400,200" size="100,100">素材
 1.女子在路上跑的图，看不到脚。还有一张差分图，女子停下脚步往上面看
 2.两帧下雨的图，只会在打到地面之类的时候反射，无法在女的身上反射
 3.下山的路，但是那个路十分陡
@@ -1511,7 +1470,7 @@ $(document).ready(function () {
 	女子像是听到了我的话，停下来并看向了我。
     [[下一页|一起小跑]]
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="47" name="一起小跑" tags="" position="1500,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="46" name="一起小跑" tags="" position="1500,200" size="100,100">素材
 
 1.高斯模糊的山路背景
 2.男子正常的立绘，正经友善的笑容
@@ -1540,7 +1499,7 @@ $(document).ready(function () {
 
 
 
-</tw-passagedata><tw-passagedata pid="48" name="山洞门口" tags="" position="1600,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="47" name="山洞门口" tags="" position="1600,200" size="100,100">素材
 
 1.山洞门口的背景，是个中景，要硬一些，会有缩放的情况
 2.地上的花朵，是彼岸花
@@ -1575,404 +1534,7 @@ $(document).ready(function () {
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="49" name="看向水" tags="" position="1575,475" size="100,100">
-&lt;img src=&quot;./剧情参考图/古代故事/泉水.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-
-背景
-&lt;div class=&quot;dialog&quot;&gt;
-(if:$water is not true)[
-	&lt;span id=&quot;piao&quot;&gt;
-		(link: &quot;装水&quot;)[
-			(set: $water to true)
-            ]
-	&lt;/span&gt;
-    &lt;script&gt;
-$(document).ready(function() {
-    // 查找 id 为 piao 的按钮
-    var button = $(&#39;#piao&#39;);
-    
-    // 创建音频对象，注意替换为你的音频文件路径
-    var audio = new Audio(&#39;./音效/古代故事/泉水和酒.wav&#39;);
-
-    // 为按钮添加点击事件
-    button.on(&#39;click&#39;, function() {
-        // 播放音频
-        audio.play();
-
-        // 当音频播放完毕后
-        audio.onended = function() {
-            // 显示 id 为 next 的元素
-            $(&#39;#next&#39;).show();
-        };
-    });
-});
-&lt;/script&gt;
-]
-(else:)[
-	[[返回|无力的女子]]
-
-]
-&lt;span id=&quot;next&quot; hidden&gt;
-	[[递给女子|无力的女子]]
-&lt;/span&gt;
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="50" name="看向火堆" tags="" position="1575,350" size="100,100">(if:$fire is not true)[
-	&lt;img id=&quot;background&quot; src=&quot;./剧情参考图/古代故事/无篝火.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-]
-
-背景
-&lt;div class=&quot;dialog&quot;&gt;
-
-男子：（看来有人在这里生活过。）
-
-(if:$fire is not true)[
-	&lt;span id=&quot;fire&quot;&gt;
-		(link: &quot;点火&quot;)[
-			(set: $fire to true)
-            ]
-	&lt;/span&gt;
-    &lt;span id=&quot;next&quot; hidden&gt; 
-    	男子将木材放入篝火，用火折子点燃木屑，火焰跃然而起，
-    	男子：“太好了，这样就温暖多了”
-    	[[返回|无力的女子]]
-     &lt;/span&gt;
-    &lt;script&gt;
-$(document).ready(function() {
-    // 查找 id 为 piao 的按钮
-    var button = $(&#39;#fire&#39;);
-    
-    // 创建音频对象，注意替换为你的音频文件路径
-    var audio = new Audio(&#39;./音效/古代故事/点蜡烛.wav&#39;);
-	
-    var background = $(&#39;#background&#39;);
-    // 为按钮添加点击事件
-    button.on(&#39;click&#39;, function() {
-    	background.src=&quot;./剧情参考图/古代故事/篝火.png&quot;
-        // 播放音频
-        audio.play();
-        // 当音频播放完毕后
-        audio.onended = function() {
-            // 显示 id 为 next 的元素
-            $(&#39;#next&#39;).show();
-        };
-    });
-});
-&lt;/script&gt;
-]
-(else:)[
-	&lt;img src=&quot;./剧情参考图/古代故事/篝火.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-    [[返回|无力的女子]]
-]
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="51" name="和女子交流" tags="" position="1700,400" size="100,100">&lt;img src=&quot;./剧情参考图/古代故事/女主无力坐在山洞门口.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-背景+立绘
-&lt;div class=&quot;dialog&quot;&gt;
-女子：“我好冷。”    
-(if:$fire is not true)[
-	
-    男子：（得想想办法生火才行）
-    [[返回|无力的女子]]
-]
-(if:$fire is true)[
-	[[带女子去火堆旁|火堆谈话1]]
-    [[返回|无力的女子]]
-
-]
-
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="52" name="火堆谈话1" tags="" position="1800,400" size="100,100">&lt;img id=&quot;background&quot; src=&quot;./剧情参考图/古代故事/享受火光的女人.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-
-&lt;div class=&quot;dialog&quot;&gt;
-男子：“姑娘，你大半夜一个人来深山野林这是为何？”
-&lt;span id=&quot;next&quot; hidden&gt;
-
-女子眼神带着困惑：“我……我也不清楚，只记得走着走着，就走到了这里。”
-[[下一页|火堆谈话2]]
-&lt;/span&gt;
-&lt;/div&gt;
-
-&lt;script&gt;
-$(document).ready(function() {
-	var background = $(&#39;#background&#39;);
-    setTimeout(()=&gt;{
-      $(&#39;#next&#39;).show();
-
-	},2000)
-    
-    
-});
-
-&lt;/script&gt;
-
-
-</tw-passagedata><tw-passagedata pid="53" name="火堆谈话2" tags="" position="1900,400" size="100,100">&lt;img id=&quot;background&quot; src=&quot;./剧情参考图/古代故事/篝火上女子什么都想不起来.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-
-&lt;div class=&quot;dialog&quot;&gt;
-男子：“那你家在哪？有没有人在找你？”
-
-女子：“我……不记得了。”
-[[下一页|火堆谈话3]]
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="54" name="火堆谈话3" tags="" position="2025,400" size="100,100">&lt;img id=&quot;background&quot; src=&quot;./剧情参考图/古代故事/篝火上女子什么都想不起来.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-
-&lt;div class=&quot;dialog&quot;&gt;
-男子：（这姑娘是怎么回事？难道有什么隐情不愿意告诉我）
-
-男子：“姑娘，外面一时半会雨也不会停，安全起见，先在此山洞凑合一晚，明天再带你下山。”
-
-男子：“现在时间也不早了，休息吧。”
-
-[[下一页|休息时间到]]
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="55" name="休息时间到" tags="" position="2125,400" size="100,100">&lt;img id=&quot;background&quot; src=&quot;./剧情参考图/古代故事/休息.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-
-&lt;div class=&quot;dialog&quot;&gt;
-说罢，男子将石凳上的兽皮铺在一边，女子躺了上去，男子靠着自己的行囊休息。
-
-困意来袭，画面逐渐变暗。
-
-
-[[休息]]
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="56" name="休息" tags="转" position="1200,600" size="100,100">&lt;img id=&quot;background&quot; src=&quot;./剧情参考图/古代故事/休息.png&quot; style=&quot;width: 100%; height: auto;&quot;&gt;
-
-&lt;div class=&quot;dialog&quot;&gt;
-男子背对着女子睡着，一边思考着今天发生的一切。
-
-男子：（不对劲啊）
-
-男子：（别说这座山上，这一带哪有什么富贵人家，这姑娘到底从哪里来的？）
-
-想到这里，哪怕现在背对着篝火，仍然感觉到后背一颤，脊髓发凉。
-
-[[下一页|女子睁开眼]]
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="57" name="女子睁开眼" tags="" position="1300,600" size="100,100">女子睁开眼，每只眼睛都有两个紫色的重叠在一起的复眼
-
-
-&lt;div class=&quot;dialog&quot;&gt;
-	&lt;span id=&quot;next&quot;&gt;
-		[[下一页|女子叫睡着的男子]]
-	&lt;/span&gt;
-
-&lt;/div&gt;
-
-
-&lt;script&gt;
-$(document).ready(function() {
-	var background = $(&#39;#background&#39;);
-    var url1 = &#39;./剧情参考图/古代故事/女子醒来.png&#39;;
-    setTimeout(()=&gt;{
-    	background.src = url1;
-    	var audio = new Audio(&#39;./音效/古代故事/背景阴.wav&#39;);
-        audio.play();
-        $(&#39;#next&#39;).show();
-	},2000)
-    
-    
-});
-
-&lt;/script&gt;
-</tw-passagedata><tw-passagedata pid="58" name="女子叫睡着的男子" tags="" position="1400,600" size="100,100">漫画格子1女的表情复杂的
-漫画格子2男子侧躺
-
-两秒后
-漫画格子2男子侧躺睁开眼说话
-
-&lt;div class=&quot;dialog&quot;&gt;
-	女子看着男子，目光中闪烁着复杂的情绪，“相公...醒醒，是我啊。”
-    
-    女子：“相公你说过愿意来世再续前缘的，我一直在等你啊。”
-
-	女子：“现在你终于来找我了，我好开心啊”
-     (live: 2s)[
-    	(stop:)
-		男子睡眼惺忪地说：“姑娘你在说什么，我才刚认识你，怎么就成你相公了呢？”
-        [[下一页|壁画1]]
-    ]
-    
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="59" name="壁画1" tags="" position="1500,600" size="100,100">
-&lt;audio src=&quot;./音效/古代故事/女施法.wav&quot; autoplay&gt;&lt;/audio&gt;
-
-漫画格1左侧显示出女人用手摸墙壁，起码脸和手要出境
-
-漫画格2右侧男的靠着行囊坐起来，惊悚地盯着这些画面。
-
-&lt;div class=&quot;dialog&quot;&gt;
-蜘蛛精：“相公，这是我们之前的故事，你还记得吗？”
-
-蜘蛛精如数家珍般摸向墙壁，墙壁浮现出上一连串鲜红色的绘画，这是蜘蛛精上辈子刻在墙上的，对过去生活的记录。
-
-真央说：“他曾经在胸口纹了一个女性的名字。”
-[[下一页|壁画2]]
-
-     (live: 2s)[
-    	(stop:)
-		右下角出现一张图男子鬼鬼祟祟坐起来，旁边放着行囊
-		男子感到一阵恐慌，他从未感觉过如此强烈的恐惧。他的心跳加速，冷汗直流，他开始呼吸急促，头一涨一涨的。
-        (live: 2s)[
-    		(stop:)
-			右下角只能看到男子地行囊而看不到男子
-			蜘蛛精正想和男子讲述这个故事，谁知这个男的已经抛弃了行李跑到山洞门口了，
-
-   		 ]
-    ]
-    
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="60" name="女子发怒" tags="" position="1500,800" size="100,100">漫画格1： 女子从裙摆下放伸出了多个蜘蛛丝，
-女子的裙摆处伸出了大量的白色丝状物，
-而女子的嘴长出了螯肢
-将漫画格2的人和漫画格一同缠绕，
-
-漫画格2：男子跑向洞口，洞口处有光
-漫画格2：男子在洞口被白丝缠绕
-
-演出：漫画格2被拉向了漫画格1
-&lt;div class=&quot;dialog&quot;&gt;
-	
-    原来就当女子滔滔不绝说着旧事的时候，
-    男子已经早早地跑向了洞穴。
-    女子的裙摆处伸出了大量的白色丝状物，
-    女子？：“你这是要去哪？给我回来！”
-
-      
-     (live: 2s)[
-    	(stop:)
-        [[神仙！饶命啊！|男子求饶]]
-        [[神仙！饶命啊！|男子求饶]]
-        [[神仙！饶命啊！|男子求饶]]
-        [[神仙！饶命啊！|男子求饶]]
-    ]
-    
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="61" name="男子求饶" tags="" position="1400,800" size="100,100">素材：
-漫画格1 女子翘着手看向地面的男子
-漫画格1 女子翘着手看向地面的男子，表情更加愤怒，
-漫画格2 男子被蜘蛛丝缠绕着四肢，只能像磕头，头撞地上
-漫画格2 男子抬头，额头上有红色的伤痕
-漫画格2 男子抬头求饶说话，额头上有红色的伤痕
-
-演出：
-漫画格2 中男子在磕头
-
-&lt;div class=&quot;dialog&quot;&gt;
-	“砰！砰！砰！”
-    
-    男子手脚都被白色丝状物缠绕，只能像个蠕虫一样蠕动，
-	
-	男子：“神仙，饶了我吧，小的我上有老下有少，妻儿还在山下等我回去呢。”
-
-     (live: 2s)[
-    	(stop:)
-        
-        女子做出发怒的表情，伴随着血肉撕裂声，女子嘴角裂开，一对锋利螯肢从嘴角伸出。气得嘴巴上的蜘蛛牙齿直发抖。
-		蜘蛛精：“什么？！ 你居然和别的女人成家了？？”
-
-		蜘蛛精：“不可饶恕”
-
-		蜘蛛精眼中的怒火越烧越旺，更多的蛛丝从裙摆处伸出。
-        [[下一页|惨死洞中]]
-    ]
-    
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="62" name="惨死洞中" tags="" position="1300,800" size="100,100">素材
-
-漫画格1 女子翘着手看向地面的男子，表情更加愤怒，
-
-漫画格2 男子以及整个漫画格被许多的蜘蛛丝缠绕，不是特别密集，比较松散，但是蛛丝有张力。
-
-撕烂的漫画格 x n : 漫画格2 被撕烂了，分成多个小的漫画格。
-
-演出：
-
-除了漫画格1中的女子以外整个内容变红黑色。
-
-撕烂的漫画中，男性的上半身靠向了在漫画格1 中
-
-&lt;div class=&quot;dialog&quot;&gt;
-
-	女子：“如果你不爱我，就去死吧。”
-    
-
-     (live: 2s)[
-    	(stop:)
-        
-        随着女子用力一拉，蛛丝如刀般切入男子的肉碎尸万段。
-	
-		蜘蛛精：“如果从我身边飞走，我就撕烂你的双翼，摧残你的身体。
-		
-        [[下一页|最后的告别]]
-    ]
-    
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="63" name="最后的告别" tags="合" position="1200,800" size="100,100">素材：
-
-漫画格1 蜘蛛精深情地抱着男子的上半身，此时她的样貌变回了原本的女子，只是眼有重叠的黑紫两个瞳孔，嘴角有裂痕。
-嘴角靠着男人的脖子，而男子还是保留着死不瞑目的惊恐表情。
-
-
-
-&lt;div class=&quot;dialog&quot;&gt;
-
-	蜘蛛精：“如果从我身边飞走，我就撕烂你的双翼，摧残你的身体。
-	(live: 2s)[
-    	(stop:)
-        
-		女子：“下辈子，下辈子你一定会重新爱我的。”
-        
-        女子深深地抱着男子的上半身，发出了亲吻的声音，以及骨肉撕裂的声音。
-        
-        &lt;span id=&quot;next&quot; hidden&gt;[[一切都结束了|真央阅读死因]]&lt;/span&gt;
-        &lt;script&gt;
-        // 创建音频对象，注意替换为你的音频文件路径
-    	var audio = new Audio(&#39;./音效/古代故事/坍缩.wav&#39;);   
-        audio.play();
-        // 当音频播放完毕后
-        audio.onended = function() {
-            // 显示 id 为 next 的元素
-            $(&#39;#next&#39;).show();
-        };
-    &lt;/script&gt;
-    ]
-    
-	
-    
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="64" name="真央阅读死因" tags="起" position="1200,1000" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="48" name="真央阅读死因" tags="起" position="1200,1000" size="100,100">素材
 
 1.解剖室的背景，用布盖着尸体。
 2.一张死因分析器的图直接放在屏幕中间，上面有蓝色的投影
@@ -1996,7 +1558,7 @@ $(document).ready(function() {
 &lt;/div&gt;
 
 
-</tw-passagedata><tw-passagedata pid="65" name="介绍背景1" tags="" position="1300,1000" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="49" name="介绍背景1" tags="" position="1300,1000" size="100,100">素材：
 
 1.解剖室的背景，用布盖着尸体。
 2.一张[[死因分析器]]的图直接放在屏幕中间，上面有蓝色的投影,代表是想象出来的结果
@@ -2011,7 +1573,7 @@ $(document).ready(function() {
 简称：CDS。
 通过这个设备，法医能够在不解剖的基础上了解尸体死亡原因以及尸体的状态。
 [[下一步|介绍背景2]]    
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="66" name="介绍背景2" tags="" position="1400,1000" size="100,100">素材
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="50" name="介绍背景2" tags="" position="1400,1000" size="100,100">素材
 
 1.解剖室的背景，用布盖着尸体。
 2.[[真央法医服叹一口气]]
@@ -2028,7 +1590,7 @@ $(document).ready(function() {
 
 因为某些原因，我参加了配许成为了一名见习法医。
 [[下一页|自我介绍]] ]]     
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="67" name="自我介绍" tags="" position="1500,1000" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="51" name="自我介绍" tags="" position="1500,1000" size="100,100">素材：
 纯黑色的背景
 (display:&quot;真央法医服正常&quot;)
 翔夜的一张说话的立绘，此时翔夜正在介绍人物。
@@ -2044,7 +1606,7 @@ $(document).ready(function() {
 正如你所见的，她是一名法医。
 
 [[下一页|自我介绍1]] ]]     
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="68" name="自我介绍1" tags="" position="1600,1000" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="52" name="自我介绍1" tags="" position="1600,1000" size="100,100">素材：
 纯黑色的背景
 (display:&quot;真央法医服正常&quot;)
 
@@ -2056,7 +1618,7 @@ $(document).ready(function() {
 真要说她与其他人有什么不同的话......
 
 [[下一页|自我介绍2]] ]]     
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="69" name="自我介绍2" tags="" position="1700,1000" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="53" name="自我介绍2" tags="" position="1700,1000" size="100,100">素材：
 
 纯黑色的背景
 (display:&quot;真央法医服正常&quot;)
@@ -2068,45 +1630,7 @@ $(document).ready(function() {
 ？？？：大概是她的好奇心和想象力吧。
 
 [[下一页|健司询问]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="70" name="壁画2" tags="" position="1600,600" size="100,100">
-&lt;audio src=&quot;./音效/古代故事/女施法.wav&quot; autoplay&gt;&lt;/audio&gt;
-
-素材：
-漫画格1一个大的深色的漫画格，里面放着多排象形画，
-象形画第一幅是男子和其他士兵一起摧毁村庄
-象形画第二幅是房屋内抱头蹲防的女人和发现战争不对劲而跪地放下武器，抱着头和撑着地的男士兵
-象形画第三幅是男女乘乱逃出
-象形画第四幅是男女在洞穴生活
-象形画第五幅是男的被其他士兵拖走，而女的在洞穴里伸出手却抓不住男子。
-
-漫画格2男子坐着惊呆的看着这一幕
-漫画格2只看到男子倾倒的行囊
-
-演出：
-
-象形画依次由黑色变成出现色彩，而在第二副画染上色彩的时候，漫画格2向右滑出屏幕，
-屏幕右侧出现几个文字，沙沙
-当到了第五幅画的时候，漫画格2重新回来，此时只看到行囊
-
-
-
-
-&lt;div class=&quot;dialog&quot;&gt;
-女子如数家珍般摸向墙壁，墙壁浮现出上一连串鲜红色的绘画，这是蜘蛛精上辈子刻在墙上的，对过去生活的记录。
-【自动播放的对话】
-蜘蛛精：“两百年前，我的村庄遭遇了一场屠杀。”
-蜘蛛精：“我躲在房间里面，看着死去的亲人，什么也做不了，只能躲在角落瑟瑟发抖。”
-蜘蛛精：“你意识到这次战争完全是单方面地屠杀，放下了武器救下了我。”
-蜘蛛精：“我们躲在这个洞穴生活了一段时间。”
-蜘蛛精：“可好景不长，你当逃兵的事情暴露了....”
-
-真央说：“他曾经在胸口纹了一个女性的名字。”
-[[下一页|女子发怒]]
-
-&lt;/div&gt;
-
-
-</tw-passagedata><tw-passagedata pid="71" name="健司询问" tags="" position="1800,1000" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="54" name="健司询问" tags="" position="1800,1000" size="100,100">素材：
 
 解剖室的背景，用布盖着尸体。
 (display:&quot;真央法医服正常&quot;)
@@ -2135,7 +1659,7 @@ $(document).ready(function() {
     [[...|健司询问1]]
 
 ]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="72" name="健司询问1" tags="" position="1900,1000" size="100,100">
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="55" name="健司询问1" tags="" position="1900,1000" size="100,100">
 
 素材：
 
@@ -2154,7 +1678,7 @@ $(document).ready(function() {
 真央：（每次他问我进展如何，我都感到无地自容。我知道他们只是关心案件的进展，但我无法给出满意的答复，这让我很沮丧。）
 
 [[下一页|健司询问2]]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="73" name="健司询问2" tags="" position="2000,1000" size="100,100">
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="56" name="健司询问2" tags="" position="2000,1000" size="100,100">
 
 素材：
 
@@ -2180,7 +1704,7 @@ $(document).ready(function() {
     [[...|健司询问3]]
 ]
 
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="74" name="健司询问3" tags="" position="2100,1000" size="100,100">
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="57" name="健司询问3" tags="" position="2100,1000" size="100,100">
 
 素材：
 
@@ -2207,7 +1731,7 @@ $(document).ready(function() {
     [[...|真央的嫌疑人刻画]]
 ]
 
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="75" name="看向尸检报告" tags="" position="2500,1000" size="100,100">
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="58" name="看向尸检报告" tags="" position="2500,1000" size="100,100">
 
 素材：
 
@@ -2265,7 +1789,7 @@ window.startScroll();
 
 &lt;/script&gt;
 
-</tw-passagedata><tw-passagedata pid="76" name="玩法设定" tags="" position="800,1400" size="100,100">理智：当理智程度越高的时候，越不容易精神崩溃，dan
+</tw-passagedata><tw-passagedata pid="59" name="玩法设定" tags="" position="800,1400" size="100,100">理智：当理智程度越高的时候，越不容易精神崩溃，dan
 
 [[理智考验]]
 
@@ -2274,7 +1798,7 @@ window.startScroll();
 [[情报收集]]
 
 [[嫌疑人刻画]]
-</tw-passagedata><tw-passagedata pid="77" name="灵光一现" tags="" position="500,1500" size="100,100">
+</tw-passagedata><tw-passagedata pid="60" name="灵光一现" tags="" position="500,1500" size="100,100">
 触发条件：当接触到关键剧情导致理智大幅下降的时候灵光一现
 
 玩法：在飞来飞去的文本中，需要操纵2d骨骼玩偶顺序地接收到关键字
@@ -2285,7 +1809,7 @@ window.startScroll();
 
 一些情况下，2d 骨骼玩偶将会碰掉掉 san 的话语，2d 玩偶一旦碰到就会消沉一段时间，
 
-</tw-passagedata><tw-passagedata pid="78" name="理智考验" tags="" position="500,1400" size="100,100">
+</tw-passagedata><tw-passagedata pid="61" name="理智考验" tags="" position="500,1400" size="100,100">
 触发条件：当接触到关键剧情导致理智大幅下降的时候将会触发理智考验
 
 玩法：在大量涌入的负面情感和词语中，要找到词语并且以正确地顺序选择
@@ -2295,9 +1819,9 @@ window.startScroll();
 
 失败后：游戏失败
 
-</tw-passagedata><tw-passagedata pid="79" name="情报收集" tags="" position="500,1600" size="100,100">玩法：
+</tw-passagedata><tw-passagedata pid="62" name="情报收集" tags="" position="500,1600" size="100,100">玩法：
 
-在场景中收集资源，一些资源没有收集完成将会导致嫌疑人刻画失败</tw-passagedata><tw-passagedata pid="80" name="死亡表格" tags="" position="2575,775" size="100,100">一张尸检报告表格 ui 图，
+在场景中收集资源，一些资源没有收集完成将会导致嫌疑人刻画失败</tw-passagedata><tw-passagedata pid="63" name="死亡表格" tags="" position="2575,775" size="100,100">一张尸检报告表格 ui 图，
 &lt;table&gt;
 
   &lt;tr&gt;
@@ -2334,7 +1858,7 @@ window.startScroll();
     &lt;td&gt;真央 2223-04-01&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="81" name="真央的嫌疑人刻画2" tags="" position="2400,1000" size="100,100">
+</tw-passagedata><tw-passagedata pid="64" name="真央的嫌疑人刻画2" tags="" position="2400,1000" size="100,100">
 
 素材：
 
@@ -2360,7 +1884,7 @@ window.startScroll();
 [[下一步|看向尸检报告]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="82" name="死亡推理1" tags="" position="2600,1000" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="65" name="死亡推理1" tags="" position="2600,1000" size="100,100">素材：
 
 白板背景，
 
@@ -2420,7 +1944,7 @@ window.startScroll();
     [[再想想|看向尸检报告]]
 &lt;/div&gt;    
 ]
-</tw-passagedata><tw-passagedata pid="83" name="timer" tags="" position="2675,775" size="100,100">{
+</tw-passagedata><tw-passagedata pid="66" name="timer" tags="" position="2675,775" size="100,100">{
   (live: 10s)[
   
       (if: $timer is -120)[
@@ -2434,7 +1958,7 @@ window.startScroll();
     (set: $timer to it - 1)
 
   ]
-}</tw-passagedata><tw-passagedata pid="84" name="推理失败" tags="" position="3100,1075" size="100,100">
+}</tw-passagedata><tw-passagedata pid="67" name="推理失败" tags="" position="3100,1075" size="100,100">
 
 素材：
 
@@ -2451,7 +1975,7 @@ window.startScroll();
 [[下一页|外卖到了]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="85" name="嫌疑人刻画" tags="" position="500,1700" size="100,100">玩法
+</tw-passagedata><tw-passagedata pid="68" name="嫌疑人刻画" tags="" position="500,1700" size="100,100">玩法
 
 在白板中有一个磁吸图钉固定着一张死者的图片，
 
@@ -2474,7 +1998,7 @@ window.startScroll();
 
 形成线段后关键字被放在白板上形成新的点。
 
-</tw-passagedata><tw-passagedata pid="86" name="死亡推理2" tags="" position="2700,1000" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="69" name="死亡推理2" tags="" position="2700,1000" size="100,100">素材：
 
 白板背景，
 
@@ -2508,7 +2032,7 @@ window.startScroll();
    [[再想想|死亡推理1]]
     
 ]
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="87" name="死亡推理3" tags="" position="2800,1000" size="100,100">(display:&#39;timer&#39;)
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="70" name="死亡推理3" tags="" position="2800,1000" size="100,100">(display:&#39;timer&#39;)
 素材：
 
 1.白板背景，
@@ -2536,7 +2060,7 @@ window.startScroll();
     [[玩家将女性纹身与动机连接|不完整的推理]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="88" name="推理成功" tags="" position="3000,925" size="100,100">
+</tw-passagedata><tw-passagedata pid="71" name="推理成功" tags="" position="3000,925" size="100,100">
 
 素材：
 
@@ -2567,14 +2091,14 @@ window.startScroll();
 	[[下一页|推理成功1]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="89" name="不完整的推理" tags="" position="3000,1075" size="100,100">(display:&#39;timer&#39;)
+</tw-passagedata><tw-passagedata pid="72" name="不完整的推理" tags="" position="3000,1075" size="100,100">(display:&#39;timer&#39;)
 
 &lt;div class=&quot;dialog&quot;&gt;
 	真央：“光靠死者身上的纹身并不能说明什么。”
     可恶啊....到底还差了什么信息
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="90" name="推理成功1" tags="" position="3100,925" size="100,100">
+</tw-passagedata><tw-passagedata pid="73" name="推理成功1" tags="" position="3100,925" size="100,100">
 
 素材：
 
@@ -2609,7 +2133,7 @@ window.startScroll();
 &lt;/div&gt;
 
 
-</tw-passagedata><tw-passagedata pid="91" name="离开解剖室" tags="" position="3300,1000" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="74" name="离开解剖室" tags="" position="3300,1000" size="100,100">素材：
 
 真央的普通的立绘。
 背景解剖室。
@@ -2636,7 +2160,7 @@ window.startScroll();
 
 吃完饭，真央觉得自己像是被压垮的骆驼，疲惫得几乎无法动弹。但她知道，这只是暂时的休息，回家后的她，依旧需要面对那堆繁重的报告。
 
-压抑地在更衣室吃完饭后把周围的物品草草地放进包里。</tw-passagedata><tw-passagedata pid="92" name="外卖小哥的偏见" tags="" position="3400,1000" size="100,100">素材：
+压抑地在更衣室吃完饭后把周围的物品草草地放进包里。</tw-passagedata><tw-passagedata pid="75" name="外卖小哥的偏见" tags="" position="3400,1000" size="100,100">素材：
 
 真央的普通的立绘。
 背景解剖室。
@@ -2659,7 +2183,7 @@ window.startScroll();
 
 看着手机屏幕上已经是晚上七点的时间，真央心里涌起一股无力感。她无力地想，“我真的可以吃完这两份套餐吗？” 她自嘲地笑了笑，却无法掩盖内心的疲惫。
 
-她想要有人能分担这份餐，就像她想要有人能帮她分担工</tw-passagedata><tw-passagedata pid="93" name="离开解剖室2" tags="" position="3500,1000" size="100,100">素材：
+她想要有人能分担这份餐，就像她想要有人能帮她分担工</tw-passagedata><tw-passagedata pid="76" name="离开解剖室2" tags="" position="3500,1000" size="100,100">素材：
 
 真央的普通的立绘。
 真央疑惑的立绘。
@@ -2679,7 +2203,7 @@ window.startScroll();
 
 看着手机屏幕上已经是晚上七点的时间，真央心里涌起一股无力感。她无力地想，“我真的可以吃完这两份套餐吗？” 她自嘲地笑了笑，却无法掩盖内心的疲惫。
 
-她想要有人能分担这份餐，就像她想要有人能帮她分担工</tw-passagedata><tw-passagedata pid="94" name="拿外卖" tags="" position="3600,1000" size="100,100">素材：
+她想要有人能分担这份餐，就像她想要有人能帮她分担工</tw-passagedata><tw-passagedata pid="77" name="拿外卖" tags="" position="3600,1000" size="100,100">素材：
 
 一个可以复用的真央的普通的立绘。
 一个可以复用的真央迷惑的立绘。
@@ -2702,7 +2226,7 @@ window.startScroll();
 
 看着手机屏幕上已经是晚上七点的时间，真央心里涌起一股无力感。她无力地想，“我真的可以吃完这两份套餐吗？” 她自嘲地笑了笑，却无法掩盖内心的疲惫。
 
-她想要有人能分担这份餐，就像她想要有人能帮她分担工↓</tw-passagedata><tw-passagedata pid="95" name="拿外卖1" tags="" position="3700,1000" size="100,100">素材：
+她想要有人能分担这份餐，就像她想要有人能帮她分担工↓</tw-passagedata><tw-passagedata pid="78" name="拿外卖1" tags="" position="3700,1000" size="100,100">素材：
 
 一个可以复用的真央的普通的立绘。
 一个可以复用的真央苦笑的立绘。
@@ -2724,7 +2248,7 @@ window.startScroll();
 
 看着手机屏幕上已经是晚上七点的时间，真央心里涌起一股无力感。她无力地想，“我真的可以吃完这两份套餐吗？” 她自嘲地笑了笑，却无法掩盖内心的疲惫。
 
-她想要有人能分担这份餐，就像她想要有人能帮她分担工↓</tw-passagedata><tw-passagedata pid="96" name="更衣室吃饭" tags="" position="3800,1000" size="100,100">素材：
+她想要有人能分担这份餐，就像她想要有人能帮她分担工↓</tw-passagedata><tw-passagedata pid="79" name="更衣室吃饭" tags="" position="3800,1000" size="100,100">素材：
 q版的更衣室背景，
 
 一个 q版的真央像左看，
@@ -2753,7 +2277,7 @@ q版人物扭头的音效，
     
 	[[下一步|更衣室吃饭1]]
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="97" name="更衣室吃饭1" tags="" position="3900,1000" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="80" name="更衣室吃饭1" tags="" position="3900,1000" size="100,100">素材：
 
 1.cg 真央靠在墙边吃汉堡，窗边有光照着长椅上的食物。
 真央体育课坐姿捧炸鸡汉堡在膝盖上，胸有种放在膝盖上的感觉，好色啊
@@ -2813,7 +2337,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 
 	[[下一页|回家]]
 &lt;/div&gt;
-</tw-passagedata><tw-passagedata pid="98" name="回家" tags="承" position="1200,1200" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="81" name="回家" tags="承" position="1200,1200" size="100,100">素材：
 
 一个会复用的背景夜间的家楼下,这个是个小巷子
 
@@ -2837,7 +2361,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 
 	[[下一页|回家1]]
 &lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="99" name="回家1" tags="" position="1300,1200" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="82" name="回家1" tags="" position="1300,1200" size="100,100">素材：
 
 1.一个会有差分图的房间背景，这是个远景，能够同时看到门口厕所和床和一个可以放倒的电竞椅，一目了然，床较为整洁。
 2.远景的差分1 门开着.真央私服的样子，背着一个黑色单肩包包出现在门口
@@ -2858,7 +2382,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
         真央走向了门口。
 		[[下一页|开始玩手机]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="100" name="跳关" tags="" position="950,800" size="100,100">&lt;table&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="83" name="跳关" tags="" position="950,800" size="100,100">&lt;table&gt;
  &lt;tr&gt;
     &lt;th colspan=&quot;2&quot;&gt;故事的部分&lt;/th&gt;
     &lt;th&gt;开端&lt;/th&gt;
@@ -3014,7 +2538,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
     &lt;td id=&quot;结局&quot;&gt;主角解决设定，故事得以圆满结局&lt;/td&gt;
  &lt;/tr&gt;
 &lt;/table&gt;
-</tw-passagedata><tw-passagedata pid="101" name="去洗澡" tags="" position="2750,1425" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="84" name="去洗澡" tags="" position="2750,1425" size="100,100">素材：
 
 1.一个会复用的中景宽镜头，能够看到门口和浴室门口
 2.真央私服的立绘
@@ -3034,7 +2558,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
         真央迫不及待地走向浴室。
 		[[下一页|背包的特写]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="102" name="背包的特写" tags="" position="2850,1425" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="85" name="背包的特写" tags="" position="2850,1425" size="100,100">素材：
 
 1.一个会复用的中景宽镜头，能够看到门口和浴室门口
 
@@ -3053,7 +2577,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 
 		[[下一页|去洗澡2]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="103" name="去洗澡2" tags="" position="2950,1425" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="86" name="去洗澡2" tags="" position="2950,1425" size="100,100">素材：
 -浴室的角落看向洗发水
 - 洗发水洗头的一个特写，手只是无力地划过头发，头是抬着的
 
@@ -3074,7 +2598,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 		真央（内心）：“我用尽力气按压洗发水的瓶子，将其挤出来在手心。水流在我头上冲洗，我闭上眼睛，任由热水洗去我的疲倦……。”
 		[[按压洗发水的瓶子|去洗澡3]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="104" name="洗脚" tags="" position="2650,1425" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="87" name="洗脚" tags="" position="2650,1425" size="100,100">素材：
 -.一个会复用的洗澡 cg，能够看到主角的脚。
 -.一个会复用的洗澡 cg，能够看到主角的脚和一大团毛和一小团毛堵在排水口。
 -.一个会复用的洗澡 cg差分，能够看到主角的脚和一大团毛形成的大手牵着和一小团毛小手堵在排水口。
@@ -3100,7 +2624,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
         [[抬头让水流过头发|洗脚]]
 		[[下一页|洗脚]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="105" name="去洗澡3" tags="" position="3050,1425" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="88" name="去洗澡3" tags="" position="3050,1425" size="100,100">素材：
 -浴室的角落看向洗发水
 - 洗发水洗头的一个特写，手只是无力地划过头发，头低下了15°
 
@@ -3118,7 +2642,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 		真央（内心）：“我又挤出了一些洗发水，我用手抓住我的头发，轻轻按摩，试图将疲惫从我的头发中洗出去……我想。”
 		[[按压洗发水的瓶子|去洗澡4]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="106" name="去洗澡4" tags="" position="3150,1425" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="89" name="去洗澡4" tags="" position="3150,1425" size="100,100">素材：
 -浴室的角落看向洗发水
 - 洗发水洗头的一个特写，手只是无力地划过头发，头低下了30°
 
@@ -3136,7 +2660,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 		真央（内心）：“无论我用多少洗发水，无论我洗多久，疲惫似乎一直粘在我身上，像顽固的油渍……我想。”
 		[[按压洗发水的瓶子|去洗澡5]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="107" name="去洗澡5" tags="" position="3250,1425" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="90" name="去洗澡5" tags="" position="3250,1425" size="100,100">素材：
 - 从低视角看到女主低下头，手扶着墙，眼神空洞，浑身疲倦。
 - 
 
@@ -3153,7 +2677,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 	&lt;div class=&#39;dialog&#39;&gt;
         真央回忆起高中的时候...
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="108" name="回忆操场上的成人礼" tags="" position="1800,1200" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="91" name="回忆操场上的成人礼" tags="" position="1800,1200" size="100,100">素材：
 - 阳光明媚，镜头拉远，让人一眼就能看到整个操场的情况，能看到有横幅挂在树上或者栏杆处写着“欢庆我们的成人礼”“感谢陪伴我们成长的人”之类的话语。学生们排着队在操场，能看到它们整齐地后脑勺，后面还站着父母。
 
 演出：
@@ -3172,31 +2696,31 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
         
 		[[下一页|回忆操场上的成人礼1]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="109" name="真央法医服思考" tags="" position="625,375" size="100,100">真央-法医服-思考
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="92" name="真央法医服思考" tags="" position="625,375" size="100,100">真央-法医服-思考
 姿势：真央左手放在大腿前侧，像是在支撑身体。她的右手臂贴着胸，手的食指第一个关节轻轻地托着下巴，这个姿势给人一种她正在思考的感觉。
 
 表情：她的眼神专注，仿佛她完全被她正在做的事情吸引，面部表情冷静而专注，显示出她在工作时的专业态度。
 
 穿着：她穿着标准的法医工作服，这件衣服 简洁而实用，彰显了她的专业性。衣服的颜色和设计与她的职业特性相符，增加了对她工作性质的认识和理解。
 
-这个立绘描述的是真央在日常工作中的状态，尽管她在面对压力和挑战时可能会表现出紧张和不安，但在她的专业领域内，她依然可以表现出冷静和专注的一面。</tw-passagedata><tw-passagedata pid="110" name="真央法医服委屈" tags="" position="775,450" size="100,100">真央-法医服-压力
+这个立绘描述的是真央在日常工作中的状态，尽管她在面对压力和挑战时可能会表现出紧张和不安，但在她的专业领域内，她依然可以表现出冷静和专注的一面。</tw-passagedata><tw-passagedata pid="93" name="真央法医服委屈" tags="" position="775,450" size="100,100">真央-法医服-压力
 
 姿势：真央的左手抓住右手的手肘，这个姿势显得有些紧张和自我保护，好像她正在寻找一种安慰或者保护自己。她的身体略微弯曲，像是在面对压力时的自我收缩。
 
 表情：她的眼神显得有些茫然和无助，仿佛正在承受同事质问的压力。她的嘴唇紧闭，额头上也浮现出轻微的皱纹，进一步展现出她的压力和困惑。
 
-穿着：她穿着她的法医工作服</tw-passagedata><tw-passagedata pid="111" name="真央法医服正常" tags="" position="575,375" size="100,100">真央-法医服-正常站姿
+穿着：她穿着她的法医工作服</tw-passagedata><tw-passagedata pid="94" name="真央法医服正常" tags="" position="575,375" size="100,100">真央-法医服-正常站姿
 姿势：真央站立着，身体略微向前倾，表现出一种警觉和保守的姿态。她的双手自然放在身体两侧，一种平常的、并不特别突出的姿势，这代表她平日里尽量避免引起注意的性格。
 
 表情：她的眼神看着前方，但显得有些疏离，仿佛她在防备着什么。嘴唇紧闭，没有任何表情，进一步展现了她的内向性格。
 
-穿着：她穿着她的法医工作服。</tw-passagedata><tw-passagedata pid="112" name="真央法医服灵光一闪" tags="" position="750,375" size="100,100">真央-法医服-灵光一闪
+穿着：她穿着她的法医工作服。</tw-passagedata><tw-passagedata pid="95" name="真央法医服灵光一闪" tags="" position="750,375" size="100,100">真央-法医服-灵光一闪
 
 姿势：真央的食指竖起来，轻轻地顶着下巴，这个动作象征了她刚刚找到了问题的答案或者新的思路。她的头部微微上扬，表明她正处在一个“恍然大悟”的状态。
 
 表情：真央的眼睛睁开，充满了活力和希望。她的脸上露出一丝轻微的微笑或者是释然的表情，显示出她刚刚在解谜上取得了成功，但又并没有夸大其成就，这样的表情更符合她内向和缺乏自信的性格特征。
 
-穿着：她穿着与立绘1相同的标准法医工作服</tw-passagedata><tw-passagedata pid="113" name="真央法医服闭眼思索" tags="" position="675,375" size="100,100">真央-法医服-闭眼思索
+穿着：她穿着与立绘1相同的标准法医工作服</tw-passagedata><tw-passagedata pid="96" name="真央法医服闭眼思索" tags="" position="675,375" size="100,100">真央-法医服-闭眼思索
 姿势：真央左手放在大腿前侧，像是在支撑身体。她的右手臂贴着胸，手的食指第二个关节轻轻地托着下巴，头低得更下了，陷入了更深思考。
 
 表情：她的眼神专注，仿佛她完全被她正在做的事情吸引，面部表情冷静而专注，显示出她在工作时的专业态度。
@@ -3204,7 +2728,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 穿着：她穿着标准的法医工作服，这件衣服 简洁而实用，彰显了她的专业性。衣服的颜色和设计与她的职业特性相符，增加了对她工作性质的认识和理解。
 
 这个立绘描述的是真央在日常工作中的状态，尽管她在面对压力和挑战时可能会表现出紧张和不安，但在她的专业领域内，她依然可以表现出冷静和专注的一面。
-</tw-passagedata><tw-passagedata pid="114" name="健司法医责备" tags="" position="625,525" size="100,100">健司立绘2（责备状态）：
+</tw-passagedata><tw-passagedata pid="97" name="健司法医责备" tags="" position="625,525" size="100,100">健司立绘2（责备状态）：
 
 姿势：健司的身体向前倾斜，右手扬起，似乎在做出指责的动作，但又没有指向特定的对象，以便在不同的场合中复用。这种姿势让他显得严肃而强硬，给真央带来了强烈的压力感。
 
@@ -3212,7 +2736,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 
 穿着：健司依然穿着标准的法医工作服，整洁而专业，强调了他对工作的严谨态度。
 
-这个立绘将健司刻画为一个严肃的、责备他人的角色，符合真央的世界观，使得她感到更大的压力和挑战。</tw-passagedata><tw-passagedata pid="115" name="健司法医服正常" tags="" position="625,650" size="100,100">健司立绘1（正常工作状态）：
+这个立绘将健司刻画为一个严肃的、责备他人的角色，符合真央的世界观，使得她感到更大的压力和挑战。</tw-passagedata><tw-passagedata pid="98" name="健司法医服正常" tags="" position="625,650" size="100,100">健司立绘1（正常工作状态）：
 
 姿势：健司的身体微微向前倾，双手放在后面，这种姿势象征着他认真且略显强迫的工作态度。他的这种姿势给真央带来了压力感，因为这表示他随时准备对真央的工作进行批评或是指导。
 
@@ -3220,7 +2744,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 
 穿着：他的穿着和真央相同，都是标准的法医工作服。他的服装整洁且专业，强调了他对工作的严谨态度，但同时也让真央感到更加的压力和不安。
 
-这样的立绘设计应该更符合真央的世界观，她将健司视为一个工作严谨，对自己有所期待，但同时也带给自己压力和不安感的人。</tw-passagedata><tw-passagedata pid="116" name="回忆操场上的成人礼1" tags="" position="1900,1200" size="100,100">素材：
+这样的立绘设计应该更符合真央的世界观，她将健司视为一个工作严谨，对自己有所期待，但同时也带给自己压力和不安感的人。</tw-passagedata><tw-passagedata pid="99" name="回忆操场上的成人礼1" tags="" position="1900,1200" size="100,100">素材：
 - 阳光明媚，站在讲台处第一人称看着站在操场上的高中生。因为是回忆不用看清每个学生的脸。
 
 演出：
@@ -3237,7 +2761,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
     
 		[[下一页|回忆操场上的成人礼2]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="117" name="回忆操场上的成人礼2" tags="" position="2000,1200" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="100" name="回忆操场上的成人礼2" tags="" position="2000,1200" size="100,100">素材：
 - 阳光明媚，站在讲台处第一人称看着站在操场上的高中生。因为是回忆不用看清每个学生的脸。
 
 演出：
@@ -3254,7 +2778,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
     
 		[[下一页|回忆操场上的成人礼3]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="118" name="回忆操场上的成人礼3" tags="" position="2100,1200" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="101" name="回忆操场上的成人礼3" tags="" position="2100,1200" size="100,100">素材：
 画面可以选择中景，主要是为了展示孩子们转身拥抱父母的场面，让玩家可以清晰地感受到这个重要的时刻，也能看到孩子们的表情和动作，
 
 - 镜头的主体是孩子们，他们正在转身，动作都在一半，表示动态的过程。通过多次重复帧动画，形成一种孩子们陆续转身的感觉，转完身后就停下来了。
@@ -3283,7 +2807,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
     
 		[[玩家通过点击让所有的小屁孩扭过头|回忆操场上的成人礼4]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="119" name="回忆操场上的成人礼4" tags="" position="2200,1200" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="102" name="回忆操场上的成人礼4" tags="" position="2200,1200" size="100,100">素材：
 最后，真央独自站在操场中，这可能是回忆里面最重要的画面，需要详细描绘真央的表情和身姿，还有她四周的空旷场景。可以用大面积的黑色来强调她的孤独和困惑，同时也可以用聚光灯来强调她的位置和情绪。
 
 此时真央的眼神很是绝望
@@ -3314,7 +2838,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
 	&lt;div class=&#39;dialog&#39;&gt;
         [[为什么|猝然醒来]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="120" name="回忆操场上的成人礼5" tags="" position="1800,1825" size="100,100">素材：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="103" name="回忆操场上的成人礼5" tags="" position="1800,1825" size="100,100">素材：
 最后，真央独自站在操场中，这可能是回忆里面最重要的画面，需要详细描绘真央的表情和身姿，还有她四周的空旷场景。可以用大面积的黑色来强调她的孤独和困惑，同时也可以用聚光灯来强调她的位置和情绪。
 
 - 需要一个帧动画来让人物眼神更生动，我想象中是杂乱的线条，象征着绝望。
@@ -3335,7 +2859,7 @@ Q版和常规艺术风格的切换，并不意味着女主角的心情从轻松�
     	真央：“为什么.....”
         [[下一页|回忆操场上的成人礼5]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="121" name="开始玩手机" tags="" position="1400,1200" size="100,100">
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="104" name="开始玩手机" tags="" position="1400,1200" size="100,100">
 素材：
 
 CG 1 - 真央开始玩手机：
@@ -3353,7 +2877,7 @@ CG 1 - 真央开始玩手机：
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="122" name="专注玩手机" tags="" position="1500,1200" size="100,100">
+</tw-passagedata><tw-passagedata pid="105" name="专注玩手机" tags="" position="1500,1200" size="100,100">
 素材：
 
 CG 2 - 真央专注于手机：
@@ -3372,7 +2896,7 @@ CG 2 - 真央专注于手机：
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="123" name="玩手机至深夜" tags="" position="1600,1200" size="100,100">[[下一页|真央昏睡过去]]
+</tw-passagedata><tw-passagedata pid="106" name="玩手机至深夜" tags="" position="1600,1200" size="100,100">[[下一页|真央昏睡过去]]
 素材：
 CG 3 - 真央忍不住的疲倦：
 
@@ -3389,7 +2913,7 @@ CG 3 - 真央忍不住的疲倦：
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="124" name="真央昏睡过去" tags="" position="1700,1200" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="107" name="真央昏睡过去" tags="" position="1700,1200" size="100,100">素材：
 CG 4 - 真央在深夜昏睡过去：
 
 视角：视角从低角度镜头转变为远一些的视角，这可以使玩家看到整个场景，感觉有种灵魂出窍的感觉。手机屏幕的光线照亮她的脸，但此时的光线已经显得非常微弱。
@@ -3405,7 +2929,7 @@ CG 4 - 真央在深夜昏睡过去：
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="125" name="猝然醒来" tags="" position="2300,1200" size="100,100">素材：
+</tw-passagedata><tw-passagedata pid="108" name="猝然醒来" tags="" position="2300,1200" size="100,100">素材：
 CG 5 - 真央被被子捂住：
 
 视角：视角还是之前远一些的视角，这可以使玩家看到整个场景，感觉有种灵魂出窍的感觉。手机屏幕的光线照亮她的脸，但此时的光线已经显得非常微弱。
@@ -3441,7 +2965,7 @@ CG 6 - 真央醒来：
         
 		[[下一页|洗脚]]
 	&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="126" name="健司法医叹气" tags="" position="725,525" size="100,100">健司立绘3（叹气状态）：
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="109" name="健司法医叹气" tags="" position="725,525" size="100,100">健司立绘3（叹气状态）：
 
 姿势：健司的身体稍微后倾，右手轻轻放在后脑勺上，像是在摩挲。左手自然下垂，手指稍稍弯曲，显示出他的无奈和疲惫。这个动作在各种场景都可以复用，更符合健司在各种场景对真央的反应。
 
@@ -3449,42 +2973,42 @@ CG 6 - 真央醒来：
 
 穿着：健司依然穿着标准的法医工作服，整洁而专业，强调了他对工作的严谨态度。
 
-这个立绘在健司觉得真央的工作进展慢或者对真央失望的情况下可以使用，从而让真央感受到更大的压力和不安</tw-passagedata><tw-passagedata pid="127" name="真央法医服双手抱胸" tags="" position="850,450" size="100,100">真央-法医服-双手抱胸
+这个立绘在健司觉得真央的工作进展慢或者对真央失望的情况下可以使用，从而让真央感受到更大的压力和不安</tw-passagedata><tw-passagedata pid="110" name="真央法医服双手抱胸" tags="" position="850,450" size="100,100">真央-法医服-双手抱胸
 姿势：真央此时双手抱胸，显示出更明显的防御性和自我保护的姿态。她的身体略微向前倾，头部下垂，这个姿势显得有些颓废和失落。
 
 表情：她的眼神显得更加空洞和迷茫，如同在无尽的深渊中寻找出路。她的嘴唇紧闭，脸部表情显得十分压抑，仿佛在内心深处累积了许多未说出的话语和情绪。
 
-穿着：她依然穿着她的法医工作服。</tw-passagedata><tw-passagedata pid="128" name="真央法医服叹一口气" tags="" position="950,450" size="100,100">真央立绘4（准备投入工作的状态）：
+穿着：她依然穿着她的法医工作服。</tw-passagedata><tw-passagedata pid="111" name="真央法医服叹一口气" tags="" position="950,450" size="100,100">真央立绘4（准备投入工作的状态）：
 
 姿势：真央此时将双手放下，但手指紧紧地握成拳，显示出她正在鼓足勇气，准备投入工作。她的身体略微向前倾，头部微微抬起，显示出她已经从失落和颓废的状态中走出，开始准备工作。
 
 表情：她的眼神变得更加专注和明亮，表明她已经从迷茫的状态中恢复过来，开始对待工作的决心。她的嘴部表情轻松，像是在深深地呼出一口气，给人一种她已经松了一口气，准备再次面对工作的感觉。
 
-穿着：她依然穿着她的法医工作服。</tw-passagedata><tw-passagedata pid="129" name="翔夜介绍东西" tags="" position="100,725" size="100,100">翔夜立绘（介绍人物时）：
+穿着：她依然穿着她的法医工作服。</tw-passagedata><tw-passagedata pid="112" name="翔夜介绍东西" tags="" position="100,725" size="100,100">翔夜立绘（介绍人物时）：
 
 姿势：翔夜此时坐在旁边，前爪伸出，就像一个教授在课堂上指向关键信息。他的尾巴自然弯曲，显示他的轻松和自在。
 
 表情：翔央的表情既神秘又有趣。他的一只眼睛金色，另一只眼睛紫黑色，这两只眼睛都散发出光芒。他的嘴角微微翘起，仿佛在微笑，显得非常友好。
 
-穿着：翔央没有穿着，他的黑色的毛发如星辰般闪耀，毛发上的光泽在照明下显现出深紫色的光晕。</tw-passagedata><tw-passagedata pid="130" name="翔夜思考" tags="" position="100,825" size="100,100">翔夜立绘（思考状态）：
+穿着：翔央没有穿着，他的黑色的毛发如星辰般闪耀，毛发上的光泽在照明下显现出深紫色的光晕。</tw-passagedata><tw-passagedata pid="113" name="翔夜思考" tags="" position="100,825" size="100,100">翔夜立绘（思考状态）：
 
 姿势：翔夜坐着，尾巴弯曲呈现一个疑问符的形状，突显出它正在深思的状态。它的身体略微向一边倾斜，头部歪向另一侧，表现出典型的猫咪思考或疑惑的状态。
 
 表情：翔夜的眼睛微微眯起，仿佛在仔细思索。它的嘴唇闭合，显示出它正在专心考虑的状态。
 
-穿着：翔夜的漆黑毛发闪烁着紫色的光辉，它并没有穿着任何衣物，因为它就是一只猫。</tw-passagedata><tw-passagedata pid="131" name="翔夜想到了" tags="" position="100,925" size="100,100">翔夜立绘（思考结果的状态）：
+穿着：翔夜的漆黑毛发闪烁着紫色的光辉，它并没有穿着任何衣物，因为它就是一只猫。</tw-passagedata><tw-passagedata pid="114" name="翔夜想到了" tags="" position="100,925" size="100,100">翔夜立绘（思考结果的状态）：
 
 姿势：翔夜的身体轻微地向后靠，一只前爪搭在另一只前爪上，犹如人类叠手的动作，表示他已经思考清楚了。他的尾巴在身后悠闲地摆动，暗示着他的心情放松，思考的压力已经解除。
 
 表情：他的眼神明亮，仿佛找到了答案，显示出满意和自信的神情。他的嘴角微微上扬，露出一种耍帅的微笑，表现出他的自信和狡黠，有点像雌小鬼的坏笑。
 
-穿着：翔夜的漆黑毛发闪烁着紫色的光辉，它并没有穿着任何衣物，因为它就是一只猫。</tw-passagedata><tw-passagedata pid="132" name="翔夜正常" tags="" position="100,1025" size="100,100">翔夜立绘（登场）：
+穿着：翔夜的漆黑毛发闪烁着紫色的光辉，它并没有穿着任何衣物，因为它就是一只猫。</tw-passagedata><tw-passagedata pid="115" name="翔夜正常" tags="" position="100,1025" size="100,100">翔夜立绘（登场）：
 
 姿势：翔夜此时坐在旁边，前爪伸出，就像一个教授在课堂上指向关键信息。他的尾巴自然弯曲，显示他的轻松和自在。
 
 表情：翔央的表情既神秘又有趣。他的一只眼睛金色，另一只眼睛紫黑色，这两只眼睛都散发出光芒。他的嘴角微微翘起，仿佛在微笑，显得非常友好。
 
-穿着：翔央没有穿着，他的黑色的毛发如星辰般闪耀，毛发上的光泽在照明下显现出深紫色的光晕。</tw-passagedata><tw-passagedata pid="133" name="真央的嫌疑人刻画1" tags="" position="2300,1000" size="100,100">
+穿着：翔央没有穿着，他的黑色的毛发如星辰般闪耀，毛发上的光泽在照明下显现出深紫色的光晕。</tw-passagedata><tw-passagedata pid="116" name="真央的嫌疑人刻画1" tags="" position="2300,1000" size="100,100">
 
 素材：
 
@@ -3512,7 +3036,7 @@ CG 6 - 真央醒来：
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="134" name="山上下雨了" tags="" position="1300,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="117" name="山上下雨了" tags="" position="1300,200" size="100,100">素材
 
 1.高斯模糊的山路背景
 2.男子立绘
@@ -3534,7 +3058,7 @@ CG 6 - 真央醒来：
 
 
 
-</tw-passagedata><tw-passagedata pid="135" name="摘地上的花" tags="" position="1700,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="118" name="摘地上的花" tags="" position="1700,200" size="100,100">素材
 这里只需要肩膀以上的头像即可。
 1.山洞门口的背景，要硬一些，会有缩放的情况
 2.地上的花朵，是彼岸花
@@ -3563,7 +3087,7 @@ CG 6 - 真央醒来：
 
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="136" name="靠近观察山洞" tags="" position="1800,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="119" name="靠近观察山洞" tags="" position="1800,200" size="100,100">素材
 
 1.山洞门口的近景特写，能看到藤蔓上有白花
 2.这里只需要肩膀以上的头像即可，而不是立绘，男子淡定的表情，男子疑惑的表情，女子害怕的表情，女子担忧的表情
@@ -3573,7 +3097,7 @@ CG 6 - 真央醒来：
 
 演出：
 1.视角跟随鼠标
-2.花朵随着视角旋转，始终看向鼠标。
+2.花朵随着视角旋转，每隔几秒转向鼠标。
 3.点击花朵后，中间出现了一个横向的背景，上下留白，镰刀在里面划动了一下，这个镰刀划动可以只是旋转，所以用 unity 的动画即可。
 4.白色硕大的白色郁金香放在了屏幕正中央，从小缩放到大，然后出现了真央的话语
 
@@ -3587,8 +3111,15 @@ CG 6 - 真央醒来：
 男子：“别担心，我这里有镰刀。”
 男子拿起采药用的小型镰刀，砍向了藤蔓。
 可是藤蔓像是钢铁般坚硬，纹丝不动。
+&lt;!--花朵第一次看向玩家鼠标--&gt;
 女子害怕地说：“咦~！我刚刚看到那花朵会动。”
 男子：“的确....这花朵有点奇怪”
+&lt;!--玩家点击没有露出破绽的花朵--&gt;
+男子：（这个位置无法完整取下花朵）
+&lt;!--花朵第一次漏出破绽--&gt;
+男子：“花的下方似乎藏着什么”
+&lt;!--花朵第二次漏出破绽--&gt;
+男子：“趁着花看着下方的时候，好像可以完整砍下来”
 &lt;!--玩家点击花朵，出现了一个镰刀砍下的特写--&gt;
 &lt;!--白色的花朵从小到大放在屏幕的真中央，像得到什么宝物一样--&gt;
 &lt;!--突然像是什么预言一样出现了这样的对话--&gt;
@@ -3604,7 +3135,7 @@ CG 6 - 真央醒来：
 [[下一页|进入洞穴内]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="137" name="进入洞穴内" tags="" position="1900,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="120" name="进入洞穴内" tags="" position="1900,200" size="100,100">素材
 中景不需要对人物和画面有过多细节，可以理解为中等画质。
 
 -.山洞中景，能看到篝火和用剩下的木头，旁边有泉水，还能看到石凳上有兽皮，太暗了看不到瓢
@@ -3668,7 +3199,7 @@ CG 6 - 真央醒来：
 [[下一页|洞中女子坐起来了]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="138" name="洞中女子坐起来了" tags="" position="2000,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="121" name="洞中女子坐起来了" tags="" position="2000,200" size="100,100">素材
 1.高斯模糊的背景
 2.姑娘几张坐着的差分图，动作，只是表情变了，女人的表情分别是暗恋，迷茫，瞳孔边缘微微的发紫，人在光的照耀下边缘发出紫色的光，暗示快变了
 3.屏幕周围白色的雾，有一种朦胧的感觉，让视野更集中在中间位置
@@ -3720,7 +3251,7 @@ CG 6 - 真央醒来：
 [[下一页|洞中男子思考]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="139" name="洞中男子思考" tags="" position="2100,200" size="100,100">素材
+</tw-passagedata><tw-passagedata pid="122" name="洞中男子思考" tags="" position="2100,200" size="100,100">素材
 1.剧场模式下的背景，高清一些，镜头能够同时看到篝火和男人和墙壁，上下留黑色的留白，稍微宽一些后面会复用
 2.男人依靠在自己的行囊上，可以看出来闭着眼睛在想东西，有不同的表情差分
 3.回忆起之前的那些女人的脚和衣服和奇山和花朵的特写
@@ -3809,22 +3340,134 @@ CG 6 - 真央醒来：
 [[下一页|逃亡的男子]]
 &lt;/div&gt;
 
-</tw-passagedata><tw-passagedata pid="140" name="逃亡的男子" tags="" position="2200,200" size="100,100">素材
-1.剧场模式下的背景，高清一些，镜头能够同时看到篝火和男人和墙壁，上下留黑色的留白，稍微宽一些后面会复用
-
+</tw-passagedata><tw-passagedata pid="123" name="逃亡的男子" tags="" position="2200,200" size="100,100">素材
+1.剧场模式下的洞穴背景，能看到洞口了，以及微弱的夜光
+2.雷鸣的差分图，此时能看到蜘蛛精的影子
+4.蜘蛛关节，只要露出很小一部分，剩下的部分全部让人自己想象，分开两根给我我自己旋转它
+5.女子倒挂着的头，头发散乱了些许，表情是嘴角下沉的悲伤，但是是倒挂着的，居然有种在微笑的错觉，表情会有不同的差分
+6.水墨画风格的东西在屏幕左右侧，可以之间把之前白色的雾改成黑色的
 
 演出：
+
+
+音效：
+
 
 
 意义：
 1.伏笔回收，开始恐慌了
 
-
+音效：
+剧烈的心跳声
+急促的呼吸声
+阴森的背景音乐
+雷声
 &lt;div class=&quot;dialog&quot;&gt;
 
-&lt;!-- 男子在右侧--&gt;
+&lt;!--男子扶着墙壁--&gt;
+男子：“（快到了，只要逃出这里....）”
+男子：“（我就能回家了）”
+&lt;!--上面有咔嚓咔嚓的拟声词在抖动--&gt;
+&lt;!--轰隆声的拟声词在右边--&gt;
+&lt;!--一道闪电划过，照亮了那个声音的来源，影子打在了我脸上--&gt;
+&lt;!--影子的差分图--&gt;
 
-[[下一页|逃亡的男子]]
+男子：“这.......这是什么”
+身体不自主地颤栗了起来。
+我的手心开始出汗，小心翼翼地捏紧拳头，试图寻找一丝安慰，却发现无处可寻。
+脑海中的清晰思绪如同被撕裂的碎片，无法连接起来。
+我的喉咙像是被什么东西堵住了一样，即使想要喊叫，也只能发出微弱的声音。
+我缓缓地抬起了头
+&lt;!--男子切换成抬起头的立绘--&gt;
+&lt;!--第一人称看向了洞穴斜上方的墙壁，镜头有抖动和移动的感觉--&gt;
+&lt;!--头发蜘蛛的腿的关节缓慢地不起眼地出现在黑色的留白地上方--&gt;
+&lt;!--屏幕故障艺术的逐渐增强代表着恐惧的升级--&gt;
+&lt;!--先显示女子的眼睛，这样玩家可以感觉到她的眼神中充满了不满--&gt;
+&lt;!--两边出现水墨画的东西，出现了三个上下旋转的的摇摇晃晃的选项但是点击没有效果--&gt;
+&lt;!--然后，再慢慢地显示她的嘴角，让玩家看到她那仿佛是倒着过来的笑容的表情--&gt;
+
+
+(link:&quot;逃跑&quot;)[
+	
+]
+(link:&quot;逃跑&quot;)[
+	
+]
+(link:&quot;逃跑&quot;)[
+
+]
+
+{
+  (live: 5s)[
+      (stop:)[
+      		(link:&quot;求饶&quot;)[
+				男子：“大仙，你饶了我吧。”
+                &lt;!--镜头上下晃动，但是视差效果能够看到女子的头基本上都在原本的位置--&gt;
+			    &lt;!--女子因为对方陌生感到悲伤--&gt;
+                &lt;!--镜头上下晃动，但是视差效果能够看到女子的头基本上都在原本的位置--&gt;
+                女子：“又要离开我吗”
+                男子：“大仙，你就放我走吧” 
+                女子：“为什么？”
+                &lt;!--妻子牵着小屁孩的画面出现在了左侧--&gt;                
+                男子：“我的妻子还在山下等我回去”
+				女子：“什么你已经和别人成家了？”
+                &lt;!--女子的头遮挡了回忆，并且稍微盯着左边--&gt;
+				女子：“我等了你两百年了，而你却和别的女人成家了？”
+                &lt;!--回忆开始了闪烁，最终消散--&gt;
+                女子：“不可饶恕,不可饶恕,不可饶恕,不可饶恕,不可饶恕,不可饶恕,不可饶恕,不可饶恕,不可饶恕,”
+                
+                &lt;!--满屏幕的文字在后面--&gt;
+                &lt;!--镜头慢慢地平移向上，并且去到了之前没有的高度，此时蜘蛛腿的关节有更多在上方留白处，意味着着脖子被掐着飞起来--&gt;
+                &lt;!--后处理屏幕边缘发红--&gt;
+                女子：“死”
+                
+                [[下一页|女子抱着男子尸体]]
+			]
+      ]
+
+
+  ]
+}
+
+&lt;/div&gt;
+
+</tw-passagedata><tw-passagedata pid="124" name="女子抱着男子尸体" tags="" position="2300,200" size="100,100">素材
+1.蜘蛛精深情地抱着男子的上半身，此时她的样貌变回了原本的女子，只是眼有重叠的黑紫两个瞳孔，嘴角有裂痕。
+嘴角靠着男人的脖子，而男子还是保留着死不瞑目的惊恐表情。
+
+演出：
+
+
+音效：
+
+
+
+意义：
+1.伏笔回收，开始恐慌了
+
+音效：
+剧烈的心跳声
+急促的呼吸声
+阴森的背景音乐
+雷声
+&lt;div class=&quot;dialog&quot;&gt;
+	蜘蛛精：“如果从我身边飞走，我就撕烂你的双翼，摧残你的身体。
+		女子：“下辈子，下辈子你一定会重新爱我的。”
+        
+        女子深深地抱着男子的上半身，发出了亲吻的声音，以及骨肉撕裂的声音。
+        
+        &lt;span id=&quot;next&quot; hidden&gt;[[一切都结束了|真央阅读死因]]&lt;/span&gt;
+        &lt;script&gt;
+        // 创建音频对象，注意替换为你的音频文件路径
+    	var audio = new Audio(&#39;./音效/古代故事/坍缩.wav&#39;);   
+        audio.play();
+        // 当音频播放完毕后
+        audio.onended = function() {
+            // 显示 id 为 next 的元素
+            $(&#39;#next&#39;).show();
+        };
+    &lt;/script&gt;
+
 &lt;/div&gt;
 
 </tw-passagedata></tw-storydata>
